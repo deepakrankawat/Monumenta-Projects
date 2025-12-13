@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A beautifully restored ancient Indian stepwell, with intricate carvings and sunlight filtering through.",
+      "imageUrl": "https://images.unsplash.com/photo-1741207756239-323f65b22660?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdGVwd2VsbCUyMGluZGlhfGVufDB8fHx8MTc2NTY0NTcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stepwell india"
+    },
+    {
+      "id": "project-1",
+      "description": "The restored facade of a heritage fort in Rajasthan.",
+      "imageUrl": "https://images.unsplash.com/photo-1717518215550-df082a0924e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YW5jaWVudCUyMHJ1aW5zfGVufDB8fHx8MTc2NTU3MjU4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ancient ruins"
+    },
+    {
+      "id": "project-2",
+      "description": "Close-up of conservation work on a temple wall carving.",
+      "imageUrl": "https://images.unsplash.com/photo-1725024996820-a0a88970edd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0ZW1wbGUlMjByZXN0b3JhdGlvbnxlbnwwfHx8fDE3NjU2NDU3MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "temple restoration"
+    },
+    {
+      "id": "project-3",
+      "description": "A restored haveli (traditional mansion) courtyard.",
+      "imageUrl": "https://images.unsplash.com/photo-1686604590107-500b9e1b9dfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoZXJpdGFnZSUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2NTY0NTcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "heritage building"
+    },
+    {
+      "id": "avatar-1",
+      "description": "Portrait of a government official.",
+      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjU2MDkxMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "avatar-2",
+      "description": "Portrait of an architect.",
+      "imageUrl": "https://images.unsplash.com/photo-1610655507808-a59293f4e332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NTU0OTc0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "avatar-3",
+      "description": "Portrait of a community leader.",
+      "imageUrl": "https://images.unsplash.com/photo-1583195763986-0231686dcd43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjU2MDkxMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    }
+  ]
 }
