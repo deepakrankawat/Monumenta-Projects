@@ -2,27 +2,27 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "A beautifully restored ancient Indian stepwell, with intricate carvings and sunlight filtering through.",
-      "imageUrl": "https://images.unsplash.com/photo-1741207756239-323f65b22660?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdGVwd2VsbCUyMGluZGlhfGVufDB8fHx8MTc2NTY0NTcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "stepwell india"
+      "description": "The majestic Amer Fort in Jaipur, India at sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1603685638332-830a7d0d04b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBbeWVyJTIwRm9ydCUyMEpBaXB1cnxlbnwwfHx8fDE3NjU4NTg5ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Amer Fort"
     },
     {
       "id": "project-1",
-      "description": "The restored facade of a heritage fort in Rajasthan.",
-      "imageUrl": "https://images.unsplash.com/photo-1717518215550-df082a0924e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YW5jaWVudCUyMHJ1aW5zfGVufDB8fHx8MTc2NTU3MjU4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "ancient ruins"
+      "description": "An intricately carved archway of a Shekhavati Haveli in Rajasthan.",
+      "imageUrl": "https://images.unsplash.com/photo-1688911397011-6387d7b34d74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzaGVraGF2YXRpJTIwaGF2ZWxpfGVufDB8fHx8MTc2NTg1OTEwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Shekhavati haveli"
     },
     {
       "id": "project-2",
-      "description": "Close-up of conservation work on a temple wall carving.",
-      "imageUrl": "https://images.unsplash.com/photo-1725024996820-a0a88970edd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0ZW1wbGUlMjByZXN0b3JhdGlvbnxlbnwwfHx8fDE3NjU2NDU3MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "temple restoration"
+      "description": "The domed ceiling of a restored palace in Amer, showing detailed mirror work.",
+      "imageUrl": "https://images.unsplash.com/photo-1595085444936-e17415286a11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtaXJyb3IlMjB3b3JrJTIwamFpcHVyfGVufDB8fHx8MTc2NTg1OTE1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mirror work"
     },
     {
       "id": "project-3",
-      "description": "A restored haveli (traditional mansion) courtyard.",
-      "imageUrl": "https://images.unsplash.com/photo-1686604590107-500b9e1b9dfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoZXJpdGFnZSUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2NTY0NTcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "heritage building"
+      "description": "Jal Mahal palace seemingly floating on Man Sagar Lake in Jaipur at night.",
+      "imageUrl": "https://images.unsplash.com/photo-1599902636323-25a8a17c672b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxKYWwlMjBNYWhhbCUyMEphaXB1cnxlbnwwfHx8fDE3NjU4NTkyMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Jal Mahal"
     },
     {
       "id": "avatar-1",

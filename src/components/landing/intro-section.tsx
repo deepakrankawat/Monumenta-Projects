@@ -6,11 +6,12 @@ export function IntroSection() {
   return (
     <section className="py-16 md:py-24">
       <Container className="text-center flex flex-col items-center">
-        <h2 className="font-headline text-3xl md:text-4xl font-bold text-foreground">
-          Who We Are
+        <h3 className="text-sm font-ui uppercase tracking-widest text-muted-foreground">Who we are</h3>
+        <h2 className="mt-4 font-headline text-3xl md:text-4xl font-bold text-foreground max-w-3xl">
+          Breathing new life into India’s architectural history.
         </h2>
         <p className="mt-6 max-w-3xl text-lg text-muted-foreground leading-relaxed">
-          Monumenta Projects is a leading name in heritage conservation, bringing together a team of architects, engineers, and artisans. We are dedicated to the meticulous restoration and preservation of India's architectural treasures through our collaboration with the Archaeological Survey of India (ASI) and corporate partners.
+          We are a team of conservation architects, structural engineers, and master craftsmen working on cultural heritage and architectural conservation projects. We work on privately-funded as well as CSR-funded projects. We work on restoring the fabric of our monuments for the future of our generations.
         </p>
         <Link href="/about" className="mt-8 font-ui font-semibold text-primary inline-flex items-center gap-2 group">
           Know more about us

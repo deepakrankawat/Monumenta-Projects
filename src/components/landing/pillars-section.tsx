@@ -1,43 +1,29 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Landmark, Handshake, Building, FileText } from "lucide-react";
+import { Landmark, Handshake, Building, FileText, Brush, Square, ChevronRight } from "lucide-react";
 import { Container } from "../container";
+import Link from "next/link";
+import { Button } from "../ui/button";
 
 const pillars = [
   {
-    icon: Landmark,
-    title: "ASI Heritage Conservation",
-    points: [
-      "Structural retrofitting & restoration",
-      "Site development & landscaping",
-      "Compliance with ASI guidelines",
-    ],
+    icon: Brush,
+    title: "Structural Conservation",
+    description: "Full-scale structural retrofitting & restoration to bring back structures to their original state of glory.",
   },
   {
-    icon: Handshake,
-    title: "CSR-Funded Heritage Projects",
-    points: [
-      "End-to-end project management",
-      "Community engagement programs",
-      "Transparent reporting & documentation",
-    ],
+    icon: Square,
+    title: "Art Conservation",
+    description: "Restoration of murals, paintings, and other forms of art to restore them to their former glory.",
   },
   {
     icon: Building,
-    title: "Heritage-Sensitive Infrastructure",
-    points: [
-      "Modern amenities with traditional aesthetics",
-      "Visitor centers & interpretation zones",
-      "Accessibility & universal design integration",
-    ],
+    title: "Heritage Tourism",
+    description: "Developing our monuments to be centers of community, discovery, and learning.",
   },
   {
     icon: FileText,
-    title: "Technical Documentation & Advisory",
-    points: [
-      "Detailed Project Reports (DPRs)",
-      "Conservation management plans",
-      "Condition assessment & surveys",
-    ],
+    title: "CSR Advisory",
+    description: "Helping corporations fulfill their CSR obligations and build a legacy by restoring our past.",
   },
 ];
 
@@ -45,27 +31,30 @@ export function PillarsSection() {
   return (
     <section className="py-16 md:py-24 bg-secondary">
       <Container>
-        <div className="max-w-xl mx-auto text-center mb-12 md:mb-16">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold text-foreground">
-                Our Core Expertise
-            </h2>
-            <p className="mt-4 text-muted-foreground">Four key pillars that define our work in preserving national heritage.</p>
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 md:mb-16">
+          <div className="max-w-xl text-left">
+              <h3 className="text-sm font-ui uppercase tracking-widest text-muted-foreground">Our Expertise</h3>
+              <h2 className="mt-4 font-headline text-3xl md:text-4xl font-bold text-foreground">
+                  Comprehensive Conservation
+              </h2>
+          </div>
+          <Button asChild variant="outline" className="mt-4 md:mt-0 bg-transparent">
+            <Link href="/services">
+              View All Services <ChevronRight className="ml-2 h-4 w-4" />
+            </Link>
+          </Button>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {pillars.map((pillar) => (
-            <Card key={pillar.title} className="text-center flex flex-col">
-              <CardHeader className="items-center">
-                <div className="bg-primary/10 p-3 rounded-full mb-4">
-                    <pillar.icon className="h-8 w-8 text-primary" />
+            <Card key={pillar.title} className="text-left flex flex-col bg-card">
+              <CardHeader>
+                <div className="bg-primary/10 p-3 rounded-full mb-4 w-fit">
+                    <pillar.icon className="h-6 w-6 text-primary" />
                 </div>
                 <CardTitle className="font-headline text-xl">{pillar.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow">
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  {pillar.points.map((point) => (
-                    <li key={point}>{point}</li>
-                  ))}
-                </ul>
+                <p className="text-sm text-muted-foreground">{pillar.description}</p>
               </CardContent>
             </Card>
           ))}
