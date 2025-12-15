@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Monumenta Projects | Heritage Conservation & ASI Expertise',
   description: 'A specialised heritage infrastructure firm working on ASI and CSR-funded conservation projects across India, focusing on preserving India’s heritage for future generations.',
   openGraph: {
-    title: 'Monumenta Projects | Heritage Conservation & ASI Expertise',
+    title: 'Monumenta Projects | Heritage Conservation & ASI expertise',
     description: 'Specialised in ASI and CSR-funded heritage conservation projects across India.',
     type: 'website',
   }
@@ -29,7 +29,7 @@ export default function RootLayout({
       </head>
       <body className={cn("min-h-screen bg-background font-body antialiased")}>
         <div className="relative flex min-h-dvh flex-col">
-          {/* <SiteHeader /> */}
+          <SiteHeader />
           <main className="flex-1">
             {children}
           </main>
