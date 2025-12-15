@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "The majestic Amer Fort in Jaipur, India at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1603685638332-830a7d0d04b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBbeWVyJTIwRm9ydCUyMEpBaXB1cnxlbnwwfHx8fDE3NjU4NTg5ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "Amer Fort"
+      "description": "The intricate facade of Hawa Mahal in Jaipur, India.",
+      "imageUrl": "https://images.unsplash.com/photo-1524230507669-6ff978583574?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxIYXdhJTIwTWFoYWx8ZW58MHx8fHwxNzY1OTQ2MTI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Hawa Mahal"
     },
     {
       "id": "project-1",
