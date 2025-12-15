@@ -1,62 +1,55 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Landmark, Handshake, Building, FileText, Brush, Square, ChevronRight } from "lucide-react";
 import { Container } from "../container";
 import Link from "next/link";
 import { Button } from "../ui/button";
 
 const pillars = [
   {
-    icon: Brush,
+    icon: "foundation",
     title: "Structural Conservation",
-    description: "Full-scale structural retrofitting & restoration to bring back structures to their original state of glory.",
+    description: "Stabilizing historic structures with heritage-sensitive engineering techniques.",
   },
   {
-    icon: Square,
+    icon: "brush",
     title: "Art Conservation",
-    description: "Restoration of murals, paintings, and other forms of art to restore them to their former glory.",
+    description: "Restoring frescoes, murals, and intricate stone carvings to their original glory.",
   },
   {
-    icon: Building,
+    icon: "map",
     title: "Heritage Tourism",
-    description: "Developing our monuments to be centers of community, discovery, and learning.",
+    description: "Developing sustainable, community-led tourism plans for heritage sites.",
   },
   {
-    icon: FileText,
+    icon: "corporate_fare",
     title: "CSR Advisory",
-    description: "Helping corporations fulfill their CSR obligations and build a legacy by restoring our past.",
+    description: "Guiding corporations in impactful, compliant heritage CSR initiatives.",
   },
 ];
 
 export function PillarsSection() {
   return (
-    <section className="py-16 md:py-24 bg-secondary">
-      <Container>
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 md:mb-16">
-          <div className="max-w-xl text-left">
-              <h3 className="text-sm font-ui uppercase tracking-widest text-muted-foreground">Our Expertise</h3>
-              <h2 className="mt-4 font-headline text-3xl md:text-4xl font-bold text-foreground">
-                  Comprehensive Conservation
-              </h2>
+    <section className="py-28 bg-background relative overflow-hidden">
+      <div className="absolute inset-0 bg-sandstone-texture opacity-20 pointer-events-none"></div>
+      <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-primary/5 to-transparent pointer-events-none"></div>
+      <Container className="relative">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8 border-b border-border pb-8">
+          <div>
+            <h2 className="text-accent font-sans font-bold tracking-[0.2em] uppercase text-xs mb-3">Our Expertise</h2>
+            <h3 className="text-4xl md:text-5xl font-medium text-foreground font-display">Comprehensive Conservation</h3>
           </div>
-          <Button asChild variant="outline" className="mt-4 md:mt-0 bg-transparent">
-            <Link href="/services">
-              View All Services <ChevronRight className="ml-2 h-4 w-4" />
-            </Link>
-          </Button>
+          <Link href="/services" className="text-sm font-semibold text-primary font-sans border-b border-primary/30 pb-1 hover:text-primary-dark transition-colors inline-flex items-center gap-2 hover:gap-3">
+              See all services <span className="material-symbols-outlined text-lg text-accent">arrow_right_alt</span>
+          </Link>
         </div>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {pillars.map((pillar) => (
-            <Card key={pillar.title} className="text-left flex flex-col bg-card">
-              <CardHeader>
-                <div className="bg-primary/10 p-3 rounded-full mb-4 w-fit">
-                    <pillar.icon className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle className="font-headline text-xl">{pillar.title}</CardTitle>
-              </CardHeader>
-              <CardContent className="flex-grow">
-                <p className="text-sm text-muted-foreground">{pillar.description}</p>
-              </CardContent>
-            </Card>
+            <div key={pillar.title} className="group p-10 rounded-lg bg-card border border-border/50 hover:border-accent/30 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/5 hover:-translate-y-1">
+              <div className="w-14 h-14 rounded-full bg-background flex items-center justify-center text-accent mb-8 group-hover:scale-110 transition-transform duration-500 border border-accent/20">
+                  <span className="material-symbols-outlined text-3xl">{pillar.icon}</span>
+              </div>
+              <h4 className="text-2xl font-medium mb-4 text-foreground group-hover:text-primary transition-colors font-display">{pillar.title}</h4>
+              <p className="text-base text-muted-foreground leading-relaxed font-body">{pillar.description}</p>
+            </div>
           ))}
         </div>
       </Container>

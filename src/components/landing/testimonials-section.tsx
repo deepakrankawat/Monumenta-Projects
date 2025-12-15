@@ -1,84 +1,67 @@
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Container } from "../container";
-import { Star } from "lucide-react";
+import { Button } from "../ui/button";
 
 const testimonials = [
   {
-    quote: "Monumenta’s approach to heritage conservation is truly remarkable. Their meticulous attention to detail and respect for traditional craftsmanship sets a new standard for conservation in the country.",
-    name: "Dr. A.K. Sharma",
-    title: "Director General, National Archives",
+    quote: "Monumenta's approach to the Jaisalmer conservation was nothing short of extraordinary. Their technical expertise matched their passion for history.",
+    name: "Dr. A. Sharma",
+    title: "Director, Rajasthan Tourism Board",
     avatar: PlaceHolderImages.find(p => p.id === 'avatar-1'),
   },
   {
-    quote: "We chose Monumenta for our CSR-funded project to restore the Jodhpur Stepwell. Their professional execution, and respect for community sentiments was exemplary.",
-    name: "Priya Mathur",
-    title: "Head of CSR, Bajaj Corp",
+    quote: "We entrusted our CSR funds for the Baori restoration to Monumenta, and the transparency and impact were exemplary.",
+    name: "Priya Mehta",
+    title: "CSR Head, Tata Steel",
     avatar: PlaceHolderImages.find(p => p.id === 'avatar-2'),
-  },
-  {
-    quote: "Collaborating with Monumenta was a masterclass in professional execution. They seamlessly blend modern engineering with traditional wisdom.",
-    name: "Ratan Kumar",
-    title: "Community Leader, Jodhpur",
-    avatar: PlaceHolderImages.find(p => p.id === 'avatar-3'),
   },
 ];
 
 export function TestimonialsSection() {
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section className="py-28 bg-background relative">
       <Container>
-        <div className="max-w-xl mx-auto text-center mb-12 md:mb-16">
-            <h3 className="text-sm font-ui uppercase tracking-widest text-muted-foreground">Testimonials</h3>
-            <h2 className="mt-4 font-headline text-3xl md:text-4xl font-bold text-foreground">
-                Trusted by Partners
-            </h2>
+        <div className="flex flex-col md:flex-row justify-between items-end mb-16">
+          <div>
+            <h2 className="text-accent font-sans font-bold tracking-[0.2em] uppercase text-xs mb-3">Testimonials</h2>
+            <h3 className="text-4xl font-medium text-foreground font-display">Trusted by Partners</h3>
+          </div>
+          <div className="flex gap-3 mt-6 md:mt-0 font-sans">
+            <Button variant="outline" size="icon" className="size-12 rounded-full border-primary/20 text-primary flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+              <span className="material-symbols-outlined">arrow_back</span>
+            </Button>
+            <Button size="icon" className="size-12 rounded-full bg-primary text-white flex items-center justify-center hover:bg-primary-dark transition-colors shadow-lg shadow-primary/20">
+              <span className="material-symbols-outlined">arrow_forward</span>
+            </Button>
+          </div>
         </div>
-        <Carousel
-          opts={{ align: "start", loop: true, }}
-          className="w-full max-w-4xl mx-auto"
-        >
-          <CarouselContent>
-            {testimonials.map((testimonial, index) => (
-              <CarouselItem key={index}>
-                <div className="p-4">
-                  <Card>
-                    <CardContent className="p-8 flex flex-col items-center text-center">
-                      <div className="flex gap-1 text-yellow-500 mb-4">
-                        {[...Array(5)].map((_, i) => <Star key={i} className="h-5 w-5 fill-current" />)}
-                      </div>
-                      <blockquote className="max-w-2xl text-lg font-medium text-foreground">
-                        “{testimonial.quote}”
-                      </blockquote>
-                      <div className="mt-8 flex items-center gap-4">
-                        {testimonial.avatar && (
-                            <Avatar>
-                                <AvatarImage src={testimonial.avatar.imageUrl} alt={testimonial.name} data-ai-hint={testimonial.avatar.imageHint} />
-                                <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
-                            </Avatar>
-                        )}
-                        <div>
-                            <p className="font-semibold text-foreground font-ui">{testimonial.name}</p>
-                            <p className="text-sm text-muted-foreground font-ui">{testimonial.title}</p>
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          {testimonials.map((testimonial, index) => (
+            <div key={index} className="p-10 rounded-lg bg-card border border-border/50 shadow-sm relative">
+              <div className="absolute top-0 right-0 p-8 opacity-10">
+                <span className="material-symbols-outlined text-6xl text-primary">format_quote</span>
+              </div>
+              <div className="flex text-accent mb-6">
+                {[...Array(5)].map((_, i) => <span key={i} className="material-symbols-outlined text-xl">star</span>)}
+              </div>
+              <p className="text-xl text-muted-foreground italic mb-8 leading-relaxed font-body">"{testimonial.quote}"</p>
+              <div className="flex items-center gap-5 border-t border-border pt-6">
+                {testimonial.avatar && (
+                  <Avatar className="size-14 ring-2 ring-white shadow-md">
+                      <AvatarImage src={testimonial.avatar.imageUrl} alt={testimonial.name} data-ai-hint={testimonial.avatar.imageHint} />
+                      <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
+                  </Avatar>
+                )}
+                <div>
+                  <div className="font-bold text-foreground font-sans">{testimonial.name}</div>
+                  <div className="text-sm text-muted-foreground font-sans">{testimonial.title}</div>
                 </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="left-[-50px]" />
-          <CarouselNext className="right-[-50px]" />
-        </Carousel>
+              </div>
+            </div>
+          ))}
+        </div>
       </Container>
     </section>
   );

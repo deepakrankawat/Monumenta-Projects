@@ -10,9 +10,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        display: ['Playfair Display', 'serif'],
         body: ['Lora', 'serif'],
-        headline: ['Playfair Display', 'serif'],
-        ui: ['Poppins', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
@@ -28,10 +28,13 @@ export default {
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))',
+          light: '#A4857A',
+          dark: '#6D4C41',
         },
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',
           foreground: 'hsl(var(--secondary-foreground))',
+          light: '#E3D1C1',
         },
         muted: {
           DEFAULT: 'hsl(var(--muted))',
@@ -67,9 +70,10 @@ export default {
         },
       },
       borderRadius: {
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)',
+        lg: '1rem',
+        md: 'var(--radius)',
+        sm: 'calc(var(--radius) - 2px)',
+        xl: '2rem'
       },
       keyframes: {
         'accordion-down': {
@@ -88,10 +92,24 @@ export default {
             height: '0',
           },
         },
+        fadeInUp: {
+            '0%': { opacity: '0', transform: 'translateY(20px)' },
+            '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        slideIn: {
+            '0%': { opacity: '0', transform: 'translateX(-20px)' },
+            '100%': { opacity: '1', transform: 'translateX(0)' },
+        }
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'fade-in-up': 'fadeInUp 1s ease-out forwards',
+        'slide-in': 'slideIn 0.8s ease-out forwards',
+        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+      },
+       backgroundImage: {
+        'sandstone-texture': "url('https://www.transparenttextures.com/patterns/dust.png')", 
       },
     },
   },
