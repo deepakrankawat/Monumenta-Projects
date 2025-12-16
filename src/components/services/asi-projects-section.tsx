@@ -2,19 +2,19 @@ import { Container } from "../container";
 
 const services = [
   {
-    icon: "gavel",
-    title: "Regulatory Compliance",
-    description: "Ensuring full adherence to ASI norms, central/state laws, and international documentation standards.",
-  },
-  {
     icon: "foundation",
-    title: "Structural Stabilization",
-    description: "Advanced engineering techniques to restore structural integrity to aging monuments without compromising aesthetics.",
+    title: "Structural Conservation & Restoration",
+    description: "Meticulous repair and strengthening of historic structures using authentic materials and techniques.",
   },
   {
-    icon: "construction",
-    title: "Excavation Management",
-    description: "Professional oversight of archaeological excavations, site management, and artifact preservation.",
+    icon: "assignment",
+    title: "Documentation & DPRs",
+    description: "Condition assessments, detailed project reports (DPRs), and 3D laser scanning for precise planning.",
+  },
+  {
+    icon: "landscape",
+    title: "Site Development & Landscaping",
+    description: "Creating visitor-friendly pathways, signage, lighting, and heritage-sensitive landscaping.",
   },
 ]
 

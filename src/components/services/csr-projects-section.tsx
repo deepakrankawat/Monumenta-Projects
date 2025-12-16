@@ -2,19 +2,19 @@ import { Container } from "../container";
 
 const services = [
     {
+        icon: "search",
+        title: "Project Identification & Proposals",
+        description: "Identifying suitable heritage projects for CSR and preparing detailed proposals for corporate approval.",
+    },
+    {
+        icon: "construction",
+        title: "Turnkey Project Execution",
+        description: "Managing all aspects of the restoration work from start to finish, ensuring quality and timeliness.",
+    },
+    {
         icon: "analytics",
-        title: "Impact Reporting",
-        description: "Detailed metrics and storytelling to showcase the social, cultural, and economic impact of your CSR funds.",
-    },
-    {
-        icon: "groups",
-        title: "Community Engagement",
-        description: "Involving local stakeholders and craftspeople to ensure long-term site stewardship and economic benefit.",
-    },
-    {
-        icon: "nature_people",
-        title: "Sustainable Tourism",
-        description: "Developing heritage sites to support eco-friendly tourism that funds ongoing maintenance.",
+        title: "Impact Reporting & Compliance",
+        description: "Providing transparent reporting, documentation, and impact assessments for full CSR compliance.",
     },
 ]
 

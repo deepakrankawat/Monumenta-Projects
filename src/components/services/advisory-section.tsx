@@ -2,19 +2,19 @@ import { Container } from "../container";
 
 const services = [
   {
-    icon: "article",
-    title: "Detailed Project Reports",
-    description: "Comprehensive DPRs including cost estimates, timelines, and technical specifications for tenders.",
+    icon: "assignment",
+    title: "Heritage Audits & Surveys",
+    description: "Detailed evaluation of heritage assets to inform conservation strategies and priorities.",
   },
   {
-    icon: "history_edu",
-    title: "Historical Research",
-    description: "Archival research and iconographic studies to inform authentic restoration decisions.",
+    icon: "gavel",
+    title: "Legal & Administrative Guidance",
+    description: "Expert assistance with navigating ASI/NOC procedures and other regulatory requirements.",
   },
   {
-    icon: "assignment_turned_in",
-    title: "Feasibility Studies",
-    description: "Assessing the condition and potential of sites before investment or acquisition.",
+    icon: "draw",
+    title: "Technical Reports & Tenders",
+    description: "Preparation of detailed drawings, BOQs, tenders, and technical reports for project execution.",
   },
 ]
 
@@ -31,7 +31,7 @@ export function AdvisorySection() {
               </h1>
             </div>
             <p className="text-muted-foreground text-base font-normal leading-normal max-w-[720px] pl-[52px]">
-              The foundation of every successful conservation project. We provide meticulous research and planning documents.
+              The foundation of every successful conservation project. We provide meticulous research and planning documents that ensure clarity, compliance, and success.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

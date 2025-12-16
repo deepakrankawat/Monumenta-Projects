@@ -13,12 +13,10 @@ export default function ServicesPage() {
       <ExpertiseSection />
       <div className="bg-sandstone-light">
         <AsiProjectsSection />
-      </div>
-      <CsrProjectsSection />
-      <div className="bg-sandstone-light">
+        <CsrProjectsSection />
         <InfrastructureSection />
+        <AdvisorySection />
       </div>
-      <AdvisorySection />
       <CtaSection />
     </>
   );

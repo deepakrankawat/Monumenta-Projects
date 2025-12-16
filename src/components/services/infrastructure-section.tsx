@@ -2,26 +2,26 @@ import { Container } from "../container";
 
 const services = [
     {
-        icon: "castle",
+        icon: "home_repair_service",
+        title: "Conservation-Friendly Repairs",
+        description: "Sensitive repairs for historic schools, libraries, town halls, and private havelis.",
+    },
+    {
+        icon: "museum",
         title: "Adaptive Reuse",
-        description: "Repurposing historic buildings for contemporary use (hotels, museums) while preserving their soul.",
+        description: "Transforming old buildings into museums, cultural centers, or boutique hotels while retaining character.",
     },
     {
-        icon: "deck",
-        title: "Modern Amenities",
-        description: "Integrating lighting, HVAC, and sanitation discretely into sensitive heritage environments.",
-    },
-    {
-        icon: "recycling",
-        title: "Eco-friendly Materials",
-        description: "Using traditional lime mortars and locally sourced stone to ensure compatibility and sustainability.",
+        icon: "holiday_village",
+        title: "Streetscape Improvement",
+        description: "Enhancing the aesthetic and functional quality of streets within historic old city areas.",
     },
 ]
 
 export function InfrastructureSection() {
     return (
         <Container className="py-5">
-            <div className="flex flex-col gap-10 px-4 py-8 md:py-12">
+            <div className="flex flex-col gap-10 px-4 py-8 md:py-12 border-t border-border">
                 <div className="flex flex-col gap-4">
                     <div className="flex items-center gap-3">
                         <span className="material-symbols-outlined text-accent text-4xl">architecture</span>
