@@ -1,33 +1,48 @@
 import { Container } from "../container";
 
-const stats = [
+const points = [
   {
-    value: "15+",
-    label: "Years Experience"
+    icon: "gavel",
+    title: "ASI & Government Expertise",
+    description: "Deep understanding of official procedures, standards, and compliance requirements for heritage projects in India.",
   },
   {
-    value: "50+",
-    label: "Monuments Restored"
+    icon: "spa",
+    title: "Authentic Materials & Methods",
+    description: "Commitment to using traditional materials like lime mortar (chuna) and time-tested artisanal techniques.",
   },
   {
-    value: "100%",
-    label: "CSR Compliant"
+    icon: "assignment",
+    title: "Meticulous Documentation",
+    description: "Rigorous documentation, from 3D laser scanning to H-BIM, ensures transparency and academic accuracy.",
   },
   {
-    value: "08",
-    label: "State Awards"
-  }
+    icon: "groups",
+    title: "Community-Centric Approach",
+    description: "Integrating local communities through skill development and sustainable tourism to create holistic value.",
+  },
 ];
 
 export function WhySection() {
   return (
     <section className="py-24 bg-background border-y border-border">
       <Container>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x-0 md:divide-x divide-border">
-          {stats.map((stat) => (
-            <div key={stat.label} className="flex flex-col items-center">
-              <div className="text-5xl md:text-6xl font-medium text-primary mb-3 font-display">{stat.value}</div>
-              <div className="text-xs font-bold text-muted-foreground uppercase tracking-[0.2em] font-sans">{stat.label}</div>
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-4">
+            Why Monumenta?
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            We combine the precision of modern project management with a deep-seated respect for historical and cultural context.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-6xl mx-auto">
+          {points.map((point) => (
+            <div key={point.title} className="text-center flex flex-col items-center p-6 rounded-lg hover:bg-card transition-colors">
+              <div className="w-16 h-16 rounded-full bg-primary/5 flex items-center justify-center text-primary mb-6 border-2 border-primary/10">
+                <span className="material-symbols-outlined text-3xl">{point.icon}</span>
+              </div>
+              <h3 className="text-xl font-bold text-foreground font-display mb-2">{point.title}</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">{point.description}</p>
             </div>
           ))}
         </div>

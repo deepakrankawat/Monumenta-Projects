@@ -33,7 +33,7 @@ export function HeroSection() {
             <span className="text-gradient-gold italic">Building Tomorrow’s Legacy.</span>
         </h1>
         <p className="text-lg md:text-xl text-primary-foreground/90 mb-12 max-w-3xl font-light leading-relaxed animate-fade-in-up delay-100 font-body">
-            Expert conservation strategies for ASI monuments and CSR-led restoration initiatives across Rajasthan and beyond.
+            A specialised heritage infrastructure firm working on ASI and CSR-funded conservation projects across India.
         </p>
         <div className="flex flex-col sm:flex-row gap-5 w-full sm:w-auto font-sans animate-fade-in-up delay-200">
           <Button asChild size="lg" className="text-base font-semibold py-4 px-10 rounded-full transition-all transform hover:-translate-y-1 shadow-xl shadow-black/20 flex items-center justify-center gap-2 min-w-[200px]">
