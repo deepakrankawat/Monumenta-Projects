@@ -6,7 +6,7 @@ export function ServicesHero() {
   const heroImage = PlaceHolderImages.find((p) => p.id === "services-hero");
 
   return (
-    <Container className="py-8">
+    <Container className="py-8 pt-28">
       <div className="flex min-h-[450px] flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-xl items-center justify-center p-8 text-center relative overflow-hidden group shadow-xl">
         {heroImage && (
           <Image

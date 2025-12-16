@@ -8,7 +8,7 @@ export function AboutHero() {
   const heroImage = PlaceHolderImages.find((p) => p.id === "about-hero");
 
   return (
-    <header className="relative w-full min-h-[85vh] flex items-center justify-center overflow-hidden">
+    <header className="relative w-full min-h-[85vh] flex items-center justify-center overflow-hidden pt-24">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/60 via-foreground/40 to-foreground/80 z-10"></div>
         {heroImage && (
