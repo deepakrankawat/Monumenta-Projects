@@ -95,6 +95,48 @@
       "description": "Close up texture of ancient sandstone wall with dramatic lighting",
       "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC4XCu5kAHa-8VB66S9-W8hlhuN_yUzlUCAUcTLVe1gh8B8DtF8YH_gTdlcUxyxmO5dPX8RERvAt4M8qGbsY6wRUrlwIy5gaoj2nO9i8P4Krgqe2ZOVHnV-9Noin3IVwg5RXRJRctSNS-83fdwKcnbVqNz3NCb9a17oJQ9XrYOvducwa-SCkZs8qAsxNl0ntbxZjCOkfzaW7Z-uAI8ypvTU2XdiwZHYK___Pwlhiz9HE5RIWkPpx3vPrAUL57Yd7d71-TWqx8_8gJY",
       "imageHint": "sandstone texture"
+    },
+    {
+      "id": "projects-hero",
+      "description": "Restoration of ancient fort walls in Rajasthan during sunset",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuD_1S1XGJSEUz6DGqZRp6gEX3DeDNF198xsMUhtXBUQzerRuHjcFLoQ0-4VA4BdnCXN6IU_cv2vcd7j3zxk9fH7fJDjpncW7tMHl2GXzUOc3kiRoVg3llBxW9JEpbyBWeJcF7e27-xzVfw3llRLUYl2TXPIszkFq49VCsEF_kdH4Rxz0sTf3gocOp14Dsx6YnrXrw0rILhp4-yF_I_l7do-mTyfByVDjtaTJestZ6Z7-A7xuJmauybru_3BQl7GbX6S702f0LuuFWA",
+      "imageHint": "fort restoration"
+    },
+    {
+      "id": "project-amer-stepwell",
+      "description": "Intricate stone carving detail of a historic fort wall",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDtc99hPY_EnILfC2pAV_qHM4TDs01KLQfvGfi5152ZRh6oRGtgBDWxXqQNSgxesDrt7GflqZlLQzqD4C8muW_CRj51yhp8fgAG3-g6y7V-OM2E_h28Ok6cFu3RzqC8-VmrRIbkxHYfU2ZrfYTpG0G8EMLHxLkQjFNkCLRkEjEjR2ZXmFssjuZcwTR2YmstGRgGTjXXXcDICgO0RcQDBjhHlvT2ZdNw9GD100stgN1e9vrjBmWC7bcFlJJBJwFhCzX4qp7GhAdXdOw",
+      "imageHint": "stone carving"
+    },
+    {
+      "id": "project-mandawa-haveli",
+      "description": "Interior fresco paintings in a Haveli",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuD7uOj1Gqq6Heo4gSvgaQ7hcU3ahL_z3fjJThFySBL957J_qJzgvzyINa9ztLFJoyomBc2AFZcre7UeEH_5fAGPDag0XXiFSYsXatO9AdBWRKf4GyuLhpSa4quEJ73iOqBJ5mRK-BEXNeGelJGMfDlx4zfvDasTf8V61itVbUwFkzkhHPu5918oKpvc0OiFe_wOIuo4FhXzoCvAuuDUTqGbhsdhdDWYU-rnwQrrg6o7eYDrDn4Rj3XbI5lDUAP26nCDcw8pbYJtZ_U",
+      "imageHint": "fresco paintings"
+    },
+    {
+      "id": "project-jaisalmer-cenotaphs",
+      "description": "Wide shot of a sandstone cenotaph against a blue sky",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMbgASds7v6pLkZWW6psM8WSXfAKn__YDLo1UBpLslmRtBUo8gmsh_EVnxcFXJtIRhChiaRSDWZaO-19MRDiEFa1kdUnafxOCArLUJBjcEizvhrhx0d7AHDQCkA42Zk7HStNIb9yU0xbShAPTmGcNsEM1o-m8K4uhEmbsKwqTBdaAwJaYFL1u0hz-HOyrXHM-TrGI2H7c-hKSgjISL09jFX4d72JmcG0IUDgR0UdDwiGrAwBqKptOizJqOmDCp6o8IJl5tSAn1-1I",
+      "imageHint": "sandstone cenotaph"
+    },
+    {
+      "id": "project-city-palace",
+      "description": "Detail of intricate window jali work in stone",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDAEMb82va_bgCsJhNucySYCR9a-EVLRA6q7zdrV00BTUCtHPDRg1SJG6SYoNpQ_7M3h1BaSB-WKlylL34QPKVRRqEB3gIUkcFWnH-WbxF9nya71WOJywnGhZhJCu8GluAWddNADSZsbifKFzK53uTXPVcaPhDr95rxNeUN4NOF0mzlsiHuhYkjh0c2nfe32G9-mExVgIL6bz8nHTWKejokflsgQKl9JL5ojdbiSWflJparPf91aNau2YdNe1UpIPJpdebc9dF_x_E",
+      "imageHint": "jali work"
+    },
+    {
+      "id": "project-blue-city",
+      "description": "Restored interior courtyard of a heritage building",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCBLTDTJHj_EwVWcrSFkc4RqZby4JtxkGd0sVdaj67CBchyqx72uzY7hfRMelZJD1IMyfid8CMvJCJJ6L4sXeYboqsObvLAfzCYW8FolGfddInZTFpJAu1xdHRfc85s3msOyXeCfoIPEaRUqM8ezFSgdlNsDcUgOqE4CrG_4rU2LgcYMWFJjkVj-inPZiB-iOgzICcRQGhmwcDar6zF2qFHParFjMGWWKS2sU8j6aDzL16O0TpgJwraNwCEUIRGd9c8FaGOhAZydiE",
+      "imageHint": "heritage courtyard"
+    },
+    {
+      "id": "project-taragarh-fort",
+      "description": "Long shot of ancient temple ruins being surveyed",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuA0jLkAXgt_y77LI47CrAVzG83U6q6k5umL1MIsJpbbM3ZTsZHzzBndtKZq2rgcP8RGeEv0NV85Nmn0o5r-0QgQWSyAtGiJPvlENra8kj5ww58XyMcVeVxKADGw1_vGmjjdS7Gg6amtZJEGG6U0r-GyYitfLfRUV-bRXkL9xVx4ZTKdEk8boDmyYBjYfNaJjdPGBgjpbwBcfTXV_dpa5PLmipI_Ib46CwIUcsO0FNTfUbxGCzJ-svCAOohHT-yx_lJ6TeP_gA7xLQM",
+      "imageHint": "temple ruins"
     }
   ]
 }
