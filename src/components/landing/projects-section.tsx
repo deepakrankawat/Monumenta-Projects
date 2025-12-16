@@ -12,7 +12,7 @@ const projects = [
     image: PlaceHolderImages.find(p => p.id === 'project-1'),
     tags: ["CSR Funded", "Ongoing"],
     span: "lg:col-span-2",
-    alt: "Detailed stonework of a restored haveli facade in Rajasthan"
+    description: "ASI-protected stepwell, structural conservation & site development"
   },
   {
     id: "project-2",
@@ -21,7 +21,7 @@ const projects = [
     image: PlaceHolderImages.find(p => p.id === 'project-2'),
     tags: ["Completed"],
     span: "",
-    alt: "Restored dome ceiling with intricate geometric patterns"
+    description: "Restoration of a historic watchtower overlooking Amber Palace."
   },
   {
     id: "project-3",
@@ -30,7 +30,7 @@ const projects = [
     image: PlaceHolderImages.find(p => p.id === 'hero-background'),
     tags: ["ASI Partnership"],
     span: "",
-    alt: "Wide shot of an ancient stepwell with symmetrical stairs"
+    description: "Meticulous cleaning and structural repair of a 16th-century stepwell."
   },
   {
     id: "project-4",
@@ -39,7 +39,7 @@ const projects = [
     image: PlaceHolderImages.find(p => p.id === 'project-3'),
     tags: ["Award Winning"],
     span: "lg:col-span-2",
-    alt: "Night view of a lit up palace reflecting in water"
+    description: "Facade restoration and structural analysis of the iconic water palace."
   },
 ];
 
@@ -59,7 +59,7 @@ export function ProjectsSection() {
                   {project.image && (
                       <Image
                       src={project.image.imageUrl}
-                      alt={project.alt}
+                      alt={project.description}
                       data-ai-hint={project.image.imageHint}
                       fill
                       className="object-cover transition-transform duration-1000 group-hover:scale-105"
@@ -78,6 +78,7 @@ export function ProjectsSection() {
                     <p className="text-secondary-light text-base flex items-center gap-2 font-sans opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
                       <span className="material-symbols-outlined text-lg">location_on</span> {project.location}
                     </p>
+                    <p className="text-white/80 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-200">{project.description}</p>
                   </div>
                 </Link>
             ))}

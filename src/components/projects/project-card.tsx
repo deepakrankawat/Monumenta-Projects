@@ -16,7 +16,7 @@ type Project = {
 export function ProjectCard({ project }: { project: Project }) {
   return (
     <div className="group relative flex flex-col overflow-hidden rounded-xl bg-card border border-border transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-border/50 ring-1 ring-transparent hover:ring-border">
-      <div className="relative aspect-[4/3] overflow-hidden">
+      <Link href={`/projects/${project.id}`} className="relative aspect-[4/3] overflow-hidden">
         <div className="absolute right-3 top-3 z-10 rounded-full bg-white/90 px-3 py-1 backdrop-blur-md shadow-sm border border-primary/10 text-primary">
           <span className="text-[10px] font-bold uppercase tracking-wider font-sans">
             {project.category}
@@ -37,10 +37,10 @@ export function ProjectCard({ project }: { project: Project }) {
             asChild
             className="scale-90 rounded-full bg-card px-5 py-2.5 text-sm font-bold text-primary shadow-lg transition-all duration-300 hover:bg-accent hover:text-accent-foreground group-hover:scale-100"
           >
-            <Link href={`/projects/${project.id}`}>View Case Study</Link>
+            <span className="cursor-pointer">View Case Study</span>
           </Button>
         </div>
-      </div>
+      </Link>
       <div className="flex flex-1 flex-col p-6">
         <div className="mb-2 flex items-center gap-2 text-accent">
           <span className="material-symbols-outlined text-[18px]">
@@ -51,7 +51,7 @@ export function ProjectCard({ project }: { project: Project }) {
           </span>
         </div>
         <h3 className="mb-2 text-xl font-bold leading-tight text-primary group-hover:text-accent transition-colors font-display">
-          {project.title}
+          <Link href={`/projects/${project.id}`}>{project.title}</Link>
         </h3>
         <p className="mb-4 text-sm text-muted-foreground line-clamp-2 leading-relaxed font-body">
           {project.description}

@@ -11,8 +11,8 @@ const projects = [
     location: "Jaipur, Rajasthan",
     category: "ASI Project",
     image: PlaceHolderImages.find((p) => p.id === "project-amer-stepwell"),
-    description: "Comprehensive structural strengthening and lime plaster restoration of the historic stepwell complex.",
-    tags: ["Conservation", "Documentation"],
+    description: "Structural strengthening and lime plaster restoration.",
+    tags: ["Conservation", "ASI"],
   },
   {
     id: "project-mandawa-haveli",
@@ -20,7 +20,7 @@ const projects = [
     location: "Shekhawati, Rajasthan",
     category: "CSR Initiative",
     image: PlaceHolderImages.find((p) => p.id === "project-mandawa-haveli"),
-    description: "Detailed chemical cleaning and preservation of 19th-century frescoes funded by corporate partners.",
+    description: "Chemical cleaning and preservation of 19th-century frescoes.",
     tags: ["Art Restoration", "CSR"],
   },
   {
@@ -29,7 +29,7 @@ const projects = [
     location: "Jaisalmer, Rajasthan",
     category: "Community",
     image: PlaceHolderImages.find((p) => p.id === "project-jaisalmer-cenotaphs"),
-    description: "Landscape development and visitor amenities integration for the royal cenotaph complex.",
+    description: "Landscape development and visitor amenities integration.",
     tags: ["Landscape", "Community"],
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     location: "Udaipur, Rajasthan",
     category: "ASI Project",
     image: PlaceHolderImages.find((p) => p.id === "project-city-palace"),
-    description: "Structural stabilization of the southern wing facade using traditional lime mortar techniques.",
+    description: "Stabilization of the southern wing facade using traditional techniques.",
     tags: ["Structural", "ASI"],
   },
   {
@@ -47,23 +47,23 @@ const projects = [
     location: "Jodhpur, Rajasthan",
     category: "CSR Initiative",
     image: PlaceHolderImages.find((p) => p.id === "project-blue-city"),
-    description: "Adaptive reuse of three heritage homes into community cultural centers.",
-    tags: ["Adaptive Reuse", "Urban"],
+    description: "Adaptive reuse of heritage homes into community cultural centers.",
+    tags: ["Adaptive Reuse", "CSR"],
   },
   {
     id: "project-taragarh-fort",
-    title: "Taragarh Fort Mapping",
+    title: "Taragarh Fort Documentation",
     location: "Bundi, Rajasthan",
-    category: "CSR Initiative",
+    category: "ASI Project",
     image: PlaceHolderImages.find((p) => p.id === "project-taragarh-fort"),
-    description: "Comprehensive 3D laser scanning and documentation for future conservation planning.",
-    tags: ["Survey", "Digital"],
+    description: "3D laser scanning and H-BIM for conservation planning.",
+    tags: ["Documentation", "ASI"],
   },
 ];
 
 export function ProjectsGrid() {
   return (
-    <main className="flex-1 w-full">
+    <main className="flex-1 w-full py-12">
       <Container>
         <Filters />
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">

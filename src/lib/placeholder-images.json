@@ -13,6 +13,12 @@
       "imageHint": "Shekhavati haveli"
     },
     {
+      "id": "project-1-before",
+      "description": "A dilapidated Shekhavati Haveli before restoration.",
+      "imageUrl": "https://images.unsplash.com/photo-1667701821776-93b5c979aa8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGlsYXBpZGF0ZWQlMjBoYXZlbGl8ZW58MHx8fHwxNzY1ODg3Mjk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dilapidated haveli"
+    },
+    {
       "id": "project-2",
       "description": "The domed ceiling of a restored palace in Amer, showing detailed mirror work.",
       "imageUrl": "https://images.unsplash.com/photo-1595085444936-e17415286a11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtaXJyb3IlMjB3b3JrJTIwamFpcHVyfGVufDB8fHx8MTc2NTg1OTE1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -107,6 +113,12 @@
       "description": "Intricate stone carving detail of a historic fort wall",
       "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDtc99hPY_EnILfC2pAV_qHM4TDs01KLQfvGfi5152ZRh6oRGtgBDWxXqQNSgxesDrt7GflqZlLQzqD4C8muW_CRj51yhp8fgAG3-g6y7V-OM2E_h28Ok6cFu3RzqC8-VmrRIbkxHYfU2ZrfYTpG0G8EMLHxLkQjFNkCLRkEjEjR2ZXmFssjuZcwTR2YmstGRgGTjXXXcDICgO0RcQDBjhHlvT2ZdNw9GD100stgN1e9vrjBmWC7bcFlJJBJwFhCzX4qp7GhAdXdOw",
       "imageHint": "stone carving"
+    },
+    {
+      "id": "project-amer-stepwell-before",
+      "description": "Degraded stone and overgrowth at Amer stepwell before restoration",
+      "imageUrl": "https://images.unsplash.com/photo-1761408942413-ba3172115e7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxydWluZWQlMjBzdGVwd2VsbHxlbnwwfHx8fDE3NjU4ODcyOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ruined stepwell"
     },
     {
       "id": "project-mandawa-haveli",
