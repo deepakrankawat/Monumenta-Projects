@@ -70,10 +70,12 @@ export default {
         },
       },
       borderRadius: {
-        lg: '1rem',
-        md: 'var(--radius)',
-        sm: 'calc(var(--radius) - 2px)',
-        xl: '2rem'
+        lg: 'var(--radius)',
+        md: 'calc(var(--radius) - 4px)',
+        sm: 'calc(var(--radius) - 8px)',
+        xl: 'calc(var(--radius) + 8px)',
+        '2xl': 'calc(var(--radius) + 16px)',
+        '3xl': 'calc(var(--radius) + 24px)',
       },
       keyframes: {
         'accordion-down': {
@@ -99,6 +101,10 @@ export default {
         slideIn: {
             '0%': { opacity: '0', transform: 'translateX(-20px)' },
             '100%': { opacity: '1', transform: 'translateX(0)' },
+        },
+        scale: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.05)' },
         }
       },
       animation: {
@@ -107,9 +113,11 @@ export default {
         'fade-in-up': 'fadeInUp 1s ease-out forwards',
         'slide-in': 'slideIn 0.8s ease-out forwards',
         'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'scale': 'scale 30s ease-in-out infinite alternate',
       },
        backgroundImage: {
         'sandstone-texture': "url('https://www.transparenttextures.com/patterns/dust.png')", 
+        'classic-gradient': 'linear-gradient(to right, hsl(var(--background)), hsl(var(--card)))',
       },
     },
   },

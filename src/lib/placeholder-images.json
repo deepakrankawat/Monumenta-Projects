@@ -3,7 +3,7 @@
     {
       "id": "hero-background",
       "description": "The intricate facade of Hawa Mahal in Jaipur, India.",
-      "imageUrl": "https://images.unsplash.com/photo-1524230507669-6ff978583574?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxIYXdhJTIwTWFoYWx8ZW58MHx8fHwxNzY1OTQ2MTI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDX5Txs_ykvcV9uwSroPQaE-Ys1ZyFdKeVZZ4w7hqA9d0xIxp0vqTx3H5T-NALGYLOqwzhHITztJu9wR3_EM3LoL8qP03biZ2PodgY6mqR9IUGkqHZRBtSEdyDnEVwPj1QDs4KyHV041K9dJ4rKIJSYljsOC3rlX3n2RKqQyXhjWrCX4n0rYoAv0PYnu7UFm_c0S0gnVH5yJ8bLydqWyH8UBY7WqTcsAQiAs3XxMv9HNGyVMZ6-v8183KUT4NvRNLgXs7rKfukXuXM",
       "imageHint": "Hawa Mahal"
     },
     {
@@ -41,6 +41,54 @@
       "description": "Portrait of a community leader.",
       "imageUrl": "https://images.unsplash.com/photo-1583195763986-0231686dcd43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjU2MDkxMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man portrait"
+    },
+    {
+      "id": "about-hero",
+      "description": "Intricate Rajasthani stonework architecture",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDr9_bRPX2htJL5kz3-wlj-Um56EGCgYg3iXkfXFgUKq7Nu7tFm375mMC-hM7S6stZCYx1cCmD4j7fC1LgQlo8jSHl97lV7jQoFFhD_VVqne0ZuybAkJmkbQ65SpMD0S5ELKQBd8tvS_7J-p7ISW74EAg-MPmweCkYbFAO1fSOQP0p6UOnuPgCBpIB_rVaR5oShgRsf53dhwhS2mHL5PU0JMrD6egVEBgEJE3Wr-GpeGqydMbCTFD1YkQQDU4h1C8mjGuQhuBEBwZU",
+      "imageHint": "Rajasthani architecture"
+    },
+    {
+      "id": "about-story",
+      "description": "Restoration expert working on stone carving",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAfCTSlLJM8Sa9w0g2oNk62n1xnVcVpjkN1q0-79pGBLLA3A4034ruxstRdBuHMjBPj4GpZu9lxZZCEvDZLZfmJoxBvqA8I0te37K71dsfDKjWTFuugmqhsStcESDKcPEnC7jZe4QTYcYtBcQGW4TZ7DBH8d9hq-FhTYtM6IiQB_BG_Brk151arzUfAtgN10cVqXXSSNl2wxHMR1CkbbsucJKxAVk8LFqXknDx5ulTHpHVtKwKbyVfQVoU04psfB9w4p_VZngnpbDo",
+      "imageHint": "artisan carving"
+    },
+    {
+      "id": "about-approach",
+      "description": "Detailed close up of weathered stone texture wall",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBHy4YINvremx80k1EkyEuNIpzhDvxEP91VjGDP3Air8fnFhhEjpr38xM6pofu5foVTsXGwMupbq-yaOnDCmGmWrbIzBnmjaZMaax00vi2efcBIrqman6kDh4gabf2RBzS0yQ6JiRrc6njljlo0oqXkph7Gtlx3y-BcIXNNYXmda26EX8vnHYd1tQTe48WSV0pNS5pEqCwreE4IeSD962c6eSOLV67l_fnf6hRtYprZDCjzWNYNC1f2dxUxAeD7Fr0NsqBnQx63P5E",
+      "imageHint": "stone texture"
+    },
+    {
+      "id": "map-india",
+      "description": "Map of India highlighting Rajasthan",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC-KQ3uPV4lb5VOaX17QCIB79G0Vr-J-v7tj8uPeEILnqpuEIt4sGTicLjjA7vhIn__iF4xkT4j2Xf6nMHjR-_W9Pzo1Rt9pCQXz09_DP5xUTrUfV-1mNvS4S_9622cZF0byI3pjw4a1lg-xkp_TXrsHUdMU13zKRr9zvFW1IqosVESOVNoBGT-lSvqS5-WdXm38te0ZSjicjVbzMQ84JpF8gg3OMfGm8HzWpHfeJB17CkLuwuK8iORa4T_VYy9FLOLXTJWg3vFDiE",
+      "imageHint": "India map"
+    },
+    {
+      "id": "team-1",
+      "description": "Professional portrait of a woman architect",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCUhzCR1C-VOxuNiF7umJywmcQFlvecvn8e6FcTTZ1zl90V3HKkgBROpyli0yUg-_deoqs7iUxjpXAgJgu5MFLOe9R45UYRzV3ZoltGISCkY8EtfOceGkIvZPfSC02aFXzRZZUywgYr6S1zJnbXElVXpx09YTjxmci-I0o4hrPDNsGe9x-7DGwwsbdBKk2k0QJGAbs8NkcwfYN9ClWGMgj7095D68nZmzYEXFfHLTHWVDYd9KY2AUQkDiJFc8fIqhqmn7P_O0MoYT8",
+      "imageHint": "woman architect"
+    },
+    {
+      "id": "team-2",
+      "description": "Professional portrait of a man in business casual",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCoBG9uvdon7XcI6zy_TZBLvSUqQrU2U3hFeI3vYOcXJVsNXMAedkc5Tsh78T50qLGaY4Da3060df7Qnu48A1iqGmVkWq88IMRvAdKIYiaspnUNXbxuJCW2eAk0J5FLxH8a3j5S6bvuf1JnZ6T2xSPEErjIMzCLgYogpWtaHtTw1i7hVuB8tayTUqurtvqNpGqgdnXPRuh3dIN6u6jSkRs9TQ113XbVpeaHgCUk7aalT5ueN9agjQx7ut1DYfou8-K5oSROepXYMnY",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "team-3",
+      "description": "Professional portrait of a woman researcher",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBkUG6nmmDdpKNmdkQ91OfaGF8ZdObXlHtzM6WP2BcZMujFj7wgLmBx2dx46J2A9Pb92jUid1xlctXOg1ybxPDg-FZMhdTxN4pMPGVG7ijDRBr_Cy3oyfYgBjNCQZTkDf2A9_2KaDDw2ME6BVBWj2JovkzxxvlBDfrhugKE4jxZhNukfMW2GNn6rZ7kDv1DKvmJhgx6ikgSxMQq2kpfYtSZeTX9mRBu5uQhwLTpaewQpArbfPQbZgG45QeWKlTUrjZCfg0xhtujl5g",
+      "imageHint": "woman researcher"
+    },
+    {
+      "id": "team-4",
+      "description": "Professional portrait of a man engineer",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC3QdS8TYKBorKLdvpazPTbCB0rg7oOCg-vI6uR9jO1mTf93SyufuUmeJxjX7HxLkNoiqaYHjC3sIOMO_sExsJzM7jrkWtjvoC5whC-CnZlbAUSFX7_GQRhcFn8mlHjnJswOcPrNJnX6n-K0iF5pkthQkXsWP6Qmt3H1eMtEI4yTYxwzf8cNGZtyUzmXvIJtng3jrvLyydqmJIPHpXED2YE3BPq4wGPpny3qgoXs8rWIVxBBGc0Z_ZTwPZABclCOCcVW60QGyn9vfA",
+      "imageHint": "man engineer"
     }
   ]
 }
