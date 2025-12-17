@@ -11,9 +11,9 @@ const navLinks = [
 ];
 
 const serviceLinks = [
-    { href: "/services#structural-conservation", label: "Structural Conservation" },
-    { href: "/services#art-restoration", label: "Art Restoration" },
-    { href: "/csr", label: "Heritage Tourism & CSR" },
+    { href: "/services#asi-projects", label: "ASI & Government" },
+    { href: "/services#csr-projects", label: "CSR & Community" },
+    { href: "/services#advisory", label: "Advisory & Documentation" },
 ];
 
 const socialLinks = [
@@ -37,8 +37,8 @@ export function SiteFooter() {
               Specializing in the conservation of India's built heritage through scientific analysis and traditional craftsmanship.
             </p>
             <div className="flex gap-5">
-                {socialLinks.map((social) => (
-                  <Link key={social.label} href={social.href} aria-label={social.label} className="text-secondary/70 hover:text-accent transition-colors">
+                {socialLinks.map((social, index) => (
+                  <Link key={index} href={social.href} aria-label={social.label} className="text-secondary/70 hover:text-accent transition-colors">
                     <span className="material-symbols-outlined text-xl">{social.icon}</span>
                   </Link>
                 ))}
