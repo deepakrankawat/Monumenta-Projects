@@ -5,12 +5,12 @@ const benefits = [
     {
         icon: "account_balance",
         title: "Enduring Brand Legacy",
-        description: "Associate your brand with permanent monuments that stand the test of time, offering distinct visibility and association for decades."
+        description: "Associate your brand with permanent monuments that stand the test of time, offering distinct visibility and association for decades. Heritage is a community asset and a driver for tourism and cultural identity."
     },
     {
         icon: "verified",
         title: "Tax Benefits & Compliance",
-        description: "Our projects are fully compliant with Schedule VII (item v) of the Companies Act 2013, ensuring 100% eligibility for your CSR spend."
+        description: "Our projects are fully compliant with Schedule VII (item v) of the Companies Act 2013, fitting within education, culture, and community development mandates."
     },
     {
         icon: "diversity_3",

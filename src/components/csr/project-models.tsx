@@ -6,23 +6,23 @@ import { Container } from "../container";
 const models = [
     {
         id: "csr-adopt",
-        title: "Adopt a Monument",
+        title: "Single-Site Flagship Project",
         description: "Comprehensive adoption of a standalone monument (Haveli, Stepwell, or Chhatri) for end-to-end restoration and maintenance.",
         budget: "₹50L - ₹5Cr",
         icon: "castle"
     },
     {
         id: "csr-skill",
-        title: "Skill Development",
-        description: "Training programs for local youth in traditional limestone masonry, stone carving, and fresco painting.",
-        budget: "₹20L - ₹1Cr",
+        title: "Multi-Site Regional Programme",
+        description: "A portfolio approach to restoring a cluster of smaller monuments in a specific geographical area or of a particular type.",
+        budget: "₹1Cr+",
         icon: "handyman"
     },
     {
         id: "csr-amenities",
-        title: "Visitor Amenities",
-        description: "Upgrading infrastructure around heritage sites: clean drinking water stations, solar lighting, and interpretation centers.",
-        budget: "₹10L - ₹80L",
+        title: "Heritage + Community Development",
+        description: "A combo project linking monument restoration with local skill training, tourism livelihood programs, or school heritage clubs.",
+        budget: "₹30L - ₹1.5Cr",
         icon: "deck"
     },
 ]

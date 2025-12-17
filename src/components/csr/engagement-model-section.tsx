@@ -2,22 +2,22 @@ const steps = [
     {
         icon: "share_location",
         title: "Identify",
-        description: "We scout monuments that align with your geography and brand values."
+        description: "We identify suitable heritage projects that align with your CSR goals and brand values."
     },
     {
         icon: "description",
         title: "Propose & Comply",
-        description: "We create detailed DPRs and handle all ASI/State Archaeology permissions."
+        description: "We create CSR-aligned proposals and handle all ASI/State Archaeology permissions."
     },
     {
         icon: "construction",
         title: "Execute",
-        description: "Scientific conservation led by specialized architects and master craftsmen."
+        description: "Full execution of restoration with scientific conservation led by specialized architects."
     },
     {
         icon: "query_stats",
         title: "Document",
-        description: "Quarterly impact reports, financial utilization certs, and PR content."
+        description: "We provide impact stories and full compliance documentation for your annual CSR reports."
     }
 ]
 
