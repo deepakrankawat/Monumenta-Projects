@@ -1,22 +1,20 @@
-import { AdvisorySection } from "@/components/services/advisory-section";
-import { AsiProjectsSection } from "@/components/services/asi-projects-section";
-import { CsrProjectsSection } from "@/components/services/csr-projects-section";
-import { CtaSection } from "@/components/services/cta-section";
+import { AsiHero } from "@/components/services/asi-hero";
+import { ExperienceSection } from "@/components/services/experience-section";
 import { ExpertiseSection } from "@/components/services/expertise-section";
-import { InfrastructureSection } from "@/components/services/infrastructure-section";
-import { ServicesHero } from "@/components/services/services-hero";
+import { HowWeWorkSection } from "@/components/services/how-we-work-section";
+import { FeaturedProjectsSection } from "@/components/services/featured-projects-section";
+import { DownloadsSection } from "@/components/services/downloads-section";
+import { CtaSection } from "@/components/services/cta-section";
 
-export default function ServicesPage() {
+export default function AsiAndGovernmentPage() {
   return (
     <>
-      <ServicesHero />
+      <AsiHero />
+      <ExperienceSection />
       <ExpertiseSection />
-      <div className="bg-sandstone-light">
-        <AsiProjectsSection />
-        <CsrProjectsSection />
-        <InfrastructureSection />
-        <AdvisorySection />
-      </div>
+      <HowWeWorkSection />
+      <FeaturedProjectsSection />
+      <DownloadsSection />
       <CtaSection />
     </>
   );

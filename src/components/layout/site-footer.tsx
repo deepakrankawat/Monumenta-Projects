@@ -9,9 +9,9 @@ const navLinks = [
 ];
 
 const serviceLinks = [
-    { href: "/services#asi-projects", label: "ASI & Government" },
-    { href: "/services#csr-projects", label: "CSR & Community" },
-    { href: "/services#advisory", label: "Advisory & Documentation" },
+    { href: "/services", label: "ASI & Government" },
+    { href: "/csr", label: "CSR & Community" },
+    { href: "/process", label: "Our Process" },
 ];
 
 const resourceLinks = [
