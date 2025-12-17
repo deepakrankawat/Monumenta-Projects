@@ -61,7 +61,7 @@ export function SiteFooter() {
               <h4 className="text-lg font-bold mb-8 text-primary-foreground font-display">Services</h4>
               <ul className="space-y-4 text-sm text-secondary/70">
                 {serviceLinks.map((link) => (
-                  <li key={link.href}>
+                  <li key={`${link.href}-${link.label}`}>
                     <Link href={link.href} className="hover:text-accent transition-colors">
                       {link.label}
                     </Link>
