@@ -11,8 +11,8 @@ const navLinks = [
 ];
 
 const serviceLinks = [
-    { href: "/services", label: "Structural Conservation" },
-    { href: "/services", label: "Art Restoration" },
+    { href: "/services#structural-conservation", label: "Structural Conservation" },
+    { href: "/services#art-restoration", label: "Art Restoration" },
     { href: "/csr", label: "Heritage Tourism & CSR" },
 ];
 
@@ -49,7 +49,7 @@ export function SiteFooter() {
               <h4 className="text-lg font-bold mb-8 text-primary-foreground font-display">Quick Links</h4>
               <ul className="space-y-4 text-sm text-secondary/70">
                 {navLinks.map((link, index) => (
-                  <li key={`${link.href}-${index}`}>
+                  <li key={index}>
                     <Link href={link.href} className="hover:text-accent transition-colors">
                       {link.label}
                     </Link>
@@ -62,7 +62,7 @@ export function SiteFooter() {
               <h4 className="text-lg font-bold mb-8 text-primary-foreground font-display">Services</h4>
               <ul className="space-y-4 text-sm text-secondary/70">
                 {serviceLinks.map((link, index) => (
-                  <li key={`${link.href}-${index}`}>
+                  <li key={index}>
                     <Link href={link.href} className="hover:text-accent transition-colors">
                       {link.label}
                     </Link>
