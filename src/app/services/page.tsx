@@ -1,20 +1,14 @@
-import { AsiHero } from "@/components/services/asi-hero";
-import { ExperienceSection } from "@/components/services/experience-section";
-import { ExpertiseSection } from "@/components/services/expertise-section";
-import { HowWeWorkSection } from "@/components/services/how-we-work-section";
-import { FeaturedProjectsSection } from "@/components/services/featured-projects-section";
-import { DownloadsSection } from "@/components/services/downloads-section";
+import { ServicesHero } from "@/components/services/services-hero";
+import { ServicesList } from "@/components/services/services-list";
 import { CtaSection } from "@/components/services/cta-section";
+import { FeaturedProjectsSection } from "@/components/services/featured-projects-section";
 
-export default function AsiAndGovernmentPage() {
+export default function ServicesPage() {
   return (
     <>
-      <AsiHero />
-      <ExperienceSection />
-      <ExpertiseSection />
-      <HowWeWorkSection />
+      <ServicesHero />
+      <ServicesList />
       <FeaturedProjectsSection />
-      <DownloadsSection />
       <CtaSection />
     </>
   );

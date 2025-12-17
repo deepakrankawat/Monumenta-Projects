@@ -1,3 +1,4 @@
+// This file is no longer used and can be removed. I am leaving it for now to avoid breaking imports, but it should be deleted in a future cleanup.
 import Link from "next/link";
 import { Container } from "@/components/container";
 import { Button } from "@/components/ui/button";

@@ -1,3 +1,4 @@
+// This file is no longer used and can be removed. I am leaving it for now to avoid breaking imports, but it should be deleted in a future cleanup.
 import Image from "next/image";
 import { Container } from "../container";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
