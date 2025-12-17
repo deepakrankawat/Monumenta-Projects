@@ -57,7 +57,7 @@
     {
       "id": "about-hero",
       "description": "Intricate Rajasthani stonework architecture",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDr9_bRPX2htJL5kz3-wlj-Um56EGCgYg3iXkfXFgUKq7Nu7tFm375mMC-hM7S6stZCYx1cCmD4j7fC1LgQlo8jSHl97lV7jQoFFhD_VVqne0ZuybAkJmkbQ65SpMD0S5ELKQBd8tvS_7J-p7ISW74EAg-MPmweCkYbFAO1fSOQP0p6UOnuPgCBpIB_rVaR5oShgRsf53dhwhS2mHL5PU0JMrD6egVEBgEJE3Wr-GpeGqydMbCTFD1YkQQDU4h1C8mjGuQhuBEBwZU",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDr9_bRPX2htJL5kz3-wlj-Um56EGCgYg3iXkfXFgUKq7Nu7tFm375mMC-hM7S6stZCYx1cCmD4j7fC1LgQlo8jSHl97lV7jQoFFhD_VVqne0ZuybAkJmkbQ65SpMD0S5ELKQBd8tvS_7J-p7ISW74EAg-MPmweCkYbFAO1fSOQP6p6UOnuPgCBpIB_rVaR5oShgRsf53dhwhS2mHL5PU0JMrD6egVEBgEJE3Wr-GpeGqydMbCTFD1YkQQDU4h1C8mjGuQhuBEBwZU",
       "imageHint": "Rajasthani architecture"
     },
     {
@@ -185,6 +185,18 @@
       "description": "Symmetrical view of a beautiful ancient Indian stepwell architecture",
       "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuARqZsXAvXhxORNzr22hNgiMs6UR2Dc2HWDRvTOi0K-UALnr55UqZsl69oWGNmeOjHed3--dy_deusOUtqxRmous0TufLKqloYc50ZO7X-fAimeoOWpf6XVsxWFJrDOkEAU8UoGe2c6mnET2ahdP61FxlsvKwV1UUGsgv4Qsu_CtQ8b1xsVR_HMSOnAQB9wZR3MKXHqYXnKJ0zccnBg29GwnQ8ijP7_Oj7wqFlqZCdEWvbfHHopknkMzSv65hCvax28M_67oiPlnqE",
       "imageHint": "indian stepwell"
+    },
+    {
+      "id": "process-hero",
+      "description": "Architectural blueprints and tools on a wooden desk",
+      "imageUrl": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "architectural blueprints"
+    },
+    {
+      "id": "process-standards",
+      "description": "Close up of textured traditional lime plaster wall",
+      "imageUrl": "https://images.unsplash.com/photo-1581303192273-353242a92555?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "lime plaster"
     }
   ]
 }
