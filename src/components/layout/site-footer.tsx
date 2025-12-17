@@ -43,9 +43,9 @@ export function SiteFooter() {
             </p>
             <div className="flex gap-5">
                 {socialLinks.map((social, index) => (
-                  <Link key={index} href={social.href} aria-label={social.label} className="text-secondary/70 hover:text-accent transition-colors">
+                  <a key={index} href={social.href} aria-label={social.label} className="text-secondary/70 hover:text-accent transition-colors">
                     <span className="material-symbols-outlined text-xl">{social.icon}</span>
-                  </Link>
+                  </a>
                 ))}
             </div>
           </div>

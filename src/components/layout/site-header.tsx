@@ -37,6 +37,9 @@ const aboutLinks = [
 const serviceLinks = [
     { href: "/services", title: "ASI & Government", description: "Collaboration with government bodies." },
     { href: "/csr", title: "CSR & Community", description: "Fulfilling your CSR goals with heritage." },
+];
+
+const projectsLinks = [
     { href: "/projects", title: "Projects & Case Studies", description: "Explore our portfolio of work." },
 ];
 
@@ -79,6 +82,16 @@ export function SiteHeader() {
                         {component.description}
                       </ListItem>
                     ))}
+                     <li className="md:col-span-2">
+                        <ListItem title="ASI & Government Collaboration" href="/services">
+                          A trusted execution partner for government bodies.
+                        </ListItem>
+                     </li>
+                      <li className="md:col-span-2">
+                        <ListItem title="CSR & Corporate Partnerships" href="/csr">
+                          Create lasting social and cultural impact.
+                        </ListItem>
+                     </li>
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
@@ -87,7 +100,10 @@ export function SiteHeader() {
                 <NavigationMenuTrigger>Services</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] lg:w-[400px]">
-                    {serviceLinks.map((link) => (
+                    <ListItem title="Our Services" href="/services">
+                        Explore our comprehensive conservation and advisory services.
+                    </ListItem>
+                    {projectsLinks.map((link) => (
                          <ListItem key={link.title} title={link.title} href={link.href}>
                             {link.description}
                         </ListItem>
@@ -97,11 +113,9 @@ export function SiteHeader() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/projects" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Projects
+                  <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                    <Link href="/projects">Projects</Link>
                   </NavigationMenuLink>
-                </Link>
               </NavigationMenuItem>
 
                <NavigationMenuItem>
@@ -122,11 +136,9 @@ export function SiteHeader() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/contact" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Contact
+                  <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                    <Link href="/contact">Contact</Link>
                   </NavigationMenuLink>
-                </Link>
               </NavigationMenuItem>
 
             </NavigationMenuList>
@@ -153,7 +165,7 @@ export function SiteHeader() {
                     <AccordionItem value="about">
                       <AccordionTrigger className="text-xl font-medium text-foreground hover:no-underline hover:text-accent">About</AccordionTrigger>
                       <AccordionContent className="pl-4">
-                        {aboutLinks.map(link => (
+                        {[...aboutLinks, { href: "/services", title: "ASI & Government", description: "" }, { href: "/csr", title: "CSR & Partnerships", description: "" }].map(link => (
                            <Link key={link.href} href={link.href} onClick={() => setIsSheetOpen(false)} className="block py-2.5 text-lg text-muted-foreground hover:text-primary">{link.title}</Link>
                         ))}
                       </AccordionContent>
@@ -161,7 +173,7 @@ export function SiteHeader() {
                      <AccordionItem value="services">
                       <AccordionTrigger className="text-xl font-medium text-foreground hover:no-underline hover:text-accent">Services</AccordionTrigger>
                       <AccordionContent className="pl-4">
-                        {serviceLinks.map(link => (
+                        {[{href: "/services", title: "Our Services"}, ...projectsLinks].map(link => (
                            <Link key={link.href} href={link.href} onClick={() => setIsSheetOpen(false)} className="block py-2.5 text-lg text-muted-foreground hover:text-primary">{link.title}</Link>
                         ))}
                       </AccordionContent>
@@ -206,6 +218,7 @@ const ListItem = React.forwardRef<
     <li>
       <NavigationMenuLink asChild>
         <Link
+          href={props.href || ''}
           ref={ref}
           className={cn(
             "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
@@ -223,5 +236,3 @@ const ListItem = React.forwardRef<
   );
 });
 ListItem.displayName = "ListItem";
-
-    
