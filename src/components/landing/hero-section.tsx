@@ -28,11 +28,11 @@ export function HeroSection() {
           <span className="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
           <span className="text-xs font-semibold uppercase tracking-widest text-primary-foreground">ISO 9001 Certified Conservation</span>
         </div>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium text-primary-foreground leading-[1.1] mb-6 max-w-6xl drop-shadow-lg animate-fade-in-up font-display">
+        <h1 className="text-4xl md:text-6xl lg:text-8xl font-medium text-primary-foreground leading-[1.1] mb-6 max-w-6xl drop-shadow-lg animate-fade-in-up font-display">
             Preserving India’s Heritage.<br/>
             <span className="text-gradient-gold italic">Building Tomorrow’s Legacy.</span>
         </h1>
-        <p className="text-lg md:text-xl text-primary-foreground/90 mb-12 max-w-3xl font-light leading-relaxed animate-fade-in-up delay-100 font-body">
+        <p className="text-base md:text-xl text-primary-foreground/90 mb-12 max-w-3xl font-light leading-relaxed animate-fade-in-up delay-100 font-body">
             A specialised heritage infrastructure firm working on ASI and CSR-funded conservation projects across India.
         </p>
         <div className="flex flex-col sm:flex-row gap-5 w-full sm:w-auto font-sans animate-fade-in-up delay-200">

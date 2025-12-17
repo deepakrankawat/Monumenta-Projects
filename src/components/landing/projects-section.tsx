@@ -45,11 +45,11 @@ const projects = [
 
 export function ProjectsSection() {
   return (
-    <section className="py-28 bg-background">
+    <section className="py-20 md:py-28 bg-background">
       <Container>
-        <div className="mb-16 flex flex-col items-center text-center">
+        <div className="mb-12 md:mb-16 flex flex-col items-center text-center">
             <h2 className="text-accent font-sans font-bold tracking-[0.2em] uppercase text-xs mb-3">Featured Projects</h2>
-            <h3 className="text-4xl md:text-5xl font-medium text-foreground font-display">
+            <h3 className="text-3xl md:text-5xl font-medium text-foreground font-display">
                 Restoring Greatness
             </h3>
         </div>
@@ -66,7 +66,7 @@ export function ProjectsSection() {
                       />
                   )}
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/95 via-foreground/40 to-transparent opacity-90 transition-opacity duration-500"></div>
-                  <div className="absolute bottom-0 left-0 p-10 w-full transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                  <div className="absolute bottom-0 left-0 p-6 md:p-10 w-full transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                     <div className="flex items-center gap-3 mb-3 font-sans">
                       {project.tags.map(tag => (
                         <span key={tag} className={`px-3 py-1 text-[10px] font-bold uppercase tracking-widest rounded-sm ${tag === 'CSR Funded' || tag === 'Award Winning' ? 'bg-accent text-foreground' : 'bg-white/20 text-white backdrop-blur-md border border-white/20'}`}>
@@ -74,8 +74,8 @@ export function ProjectsSection() {
                         </span>
                       ))}
                     </div>
-                    <h4 className={`font-medium text-white mb-2 font-display ${project.span ? 'text-3xl' : 'text-2xl'}`}>{project.title}</h4>
-                    <p className="text-secondary-light text-base flex items-center gap-2 font-sans opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+                    <h4 className={`font-medium text-white mb-2 font-display ${project.span ? 'text-2xl md:text-3xl' : 'text-2xl'}`}>{project.title}</h4>
+                    <p className="text-secondary-light text-sm md:text-base flex items-center gap-2 font-sans opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
                       <span className="material-symbols-outlined text-lg">location_on</span> {project.location}
                     </p>
                     <p className="text-white/80 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-200">{project.description}</p>

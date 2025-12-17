@@ -10,7 +10,7 @@ export function CsrHero() {
   return (
     <section className="w-full flex justify-center py-6 px-4 md:px-10 pt-28">
       <Container>
-        <div className="w-full rounded-2xl overflow-hidden relative min-h-[600px] flex flex-col justify-center items-center text-center p-8 bg-cover bg-center shadow-xl border border-soft-clay">
+        <div className="w-full rounded-2xl overflow-hidden relative min-h-[70vh] md:min-h-[600px] flex flex-col justify-center items-center text-center p-8 bg-cover bg-center shadow-xl border border-soft-clay">
           {heroImage && (
             <Image
               src={heroImage.imageUrl}
@@ -27,17 +27,17 @@ export function CsrHero() {
               <span className="material-symbols-outlined text-accent text-sm">temple_hindu</span>
               <span className="text-accent text-xs font-bold uppercase tracking-widest font-ui">Heritage Conservation</span>
             </div>
-            <h1 className="text-primary-foreground text-4xl md:text-7xl font-display font-bold leading-tight tracking-[-0.01em] drop-shadow-lg">
+            <h1 className="text-primary-foreground text-4xl sm:text-5xl md:text-7xl font-display font-bold leading-tight tracking-[-0.01em] drop-shadow-lg">
               Build a Legacy: <span className="italic text-accent">CSR</span> in Heritage Conservation
             </h1>
-            <p className="text-primary-foreground/90 font-body text-lg md:text-xl max-w-[700px] leading-relaxed drop-shadow-md">
+            <p className="text-primary-foreground/90 font-body text-base sm:text-lg md:text-xl max-w-[700px] leading-relaxed drop-shadow-md">
               Partner with us to bridge your corporate sustainability goals with India's rich architectural history. Create tangible impact that lasts centuries.
             </p>
-            <div className="flex flex-col sm:flex-row gap-5 mt-8">
-              <Button asChild size="lg" className="h-14 px-10 rounded-full font-bold text-base hover:-translate-y-0.5 shadow-lg hover:shadow-xl">
+            <div className="flex flex-col sm:flex-row gap-5 mt-4 md:mt-8">
+              <Button asChild size="lg" className="h-12 md:h-14 px-8 md:px-10 rounded-full font-bold text-sm md:text-base hover:-translate-y-0.5 shadow-lg hover:shadow-xl">
                 <Link href="/contact">Schedule CSR Consultation</Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="h-14 px-10 rounded-full font-bold text-base bg-white/10 backdrop-blur-md border-white/30 text-white hover:bg-white hover:text-foreground hover:-translate-y-0.5">
+              <Button asChild variant="outline" size="lg" className="h-12 md:h-14 px-8 md:px-10 rounded-full font-bold text-sm md:text-base bg-white/10 backdrop-blur-md border-white/30 text-white hover:bg-white hover:text-foreground hover:-translate-y-0.5">
                 <Link href="#">Download Brochure</Link>
               </Button>
             </div>

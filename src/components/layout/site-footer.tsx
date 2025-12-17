@@ -27,17 +27,17 @@ const socialLinks = [
 
 export function SiteFooter() {
   return (
-    <footer className="bg-foreground text-primary-foreground pt-24 pb-12 font-sans">
+    <footer className="bg-foreground text-primary-foreground pt-16 md:pt-24 pb-8 md:pb-12 font-sans">
       <Container as="div">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20 border-b border-white/5 pb-16">
-          <div className="col-span-1 md:col-span-2 lg:col-span-1">
-            <Link href="/" className="flex items-center gap-3 mb-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-12 mb-12 md:mb-20 border-b border-white/5 pb-12 md:pb-16">
+          <div className="col-span-2 lg:col-span-2">
+            <Link href="/" className="flex items-center gap-3 mb-6">
               <div className="size-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground">
                 <span className="material-symbols-outlined text-xl">temple_hindu</span>
               </div>
               <span className="text-2xl font-bold tracking-tight text-primary-foreground font-display">Monumenta.</span>
             </Link>
-            <p className="text-secondary/70 text-sm leading-relaxed mb-8 font-body">
+            <p className="text-secondary/70 text-sm leading-relaxed mb-8 font-body max-w-xs">
               Specializing in the conservation of India's built heritage through scientific analysis and traditional craftsmanship.
             </p>
             <div className="flex gap-5">
@@ -49,8 +49,8 @@ export function SiteFooter() {
             </div>
           </div>
           
-          <div>
-              <h4 className="text-lg font-bold mb-8 text-primary-foreground font-display">Quick Links</h4>
+          <div className="col-span-1">
+              <h4 className="text-base md:text-lg font-bold mb-6 md:mb-8 text-primary-foreground font-display">Quick Links</h4>
               <ul className="space-y-4 text-sm text-secondary/70">
                 {navLinks.map((link, index) => (
                   <li key={index}>
@@ -62,8 +62,8 @@ export function SiteFooter() {
               </ul>
           </div>
             
-          <div>
-              <h4 className="text-lg font-bold mb-8 text-primary-foreground font-display">Services</h4>
+          <div className="col-span-1">
+              <h4 className="text-base md:text-lg font-bold mb-6 md:mb-8 text-primary-foreground font-display">Services</h4>
               <ul className="space-y-4 text-sm text-secondary/70">
                 {serviceLinks.map((link, index) => (
                   <li key={index}>
@@ -75,8 +75,8 @@ export function SiteFooter() {
               </ul>
           </div>
 
-          <div>
-            <h4 className="text-lg font-bold mb-8 text-primary-foreground font-display">Resources</h4>
+          <div className="col-span-2 md:col-span-1">
+            <h4 className="text-base md:text-lg font-bold mb-6 md:mb-8 text-primary-foreground font-display">Resources</h4>
              <ul className="space-y-4 text-sm text-secondary/70">
                 {resourceLinks.map((link, index) => (
                   <li key={index}>
@@ -88,9 +88,9 @@ export function SiteFooter() {
               </ul>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
           <p className="text-sm text-secondary/40">© {new Date().getFullYear()} Monumenta Projects. All rights reserved.</p>
-          <div className="flex gap-8 text-sm text-secondary/40">
+          <div className="flex gap-4 md:gap-8 text-sm text-secondary/40">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
           </div>
