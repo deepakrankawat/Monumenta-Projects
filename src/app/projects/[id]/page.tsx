@@ -31,7 +31,7 @@ const getProjectData = (id: string) => {
         impact: "The project has successfully stabilized the structure, revived traditional crafts, and enhanced the visitor experience at this key heritage site.",
       },
       {
-        id: "project-1",
+        id: "project-mandawa-haveli",
         title: "Shekhawati Haveli Project",
         location: "Mandawa, Rajasthan",
         category: "CSR Funded",
@@ -50,13 +50,18 @@ const getProjectData = (id: string) => {
         impact: "The project is set to revive a significant cultural landmark, creating local employment and promoting heritage tourism.",
       }
   ];
+  
   const project = allProjects.find(p => p.id === id);
-  // Add other projects here
-  if (id === 'project-2' || id === 'project-3' || id === 'project-4' || id === 'project-mandawa-haveli' || id === 'project-jaisalmer-cenotaphs' || id === 'project-city-palace' || id === 'project-blue-city' || id === 'project-taragarh-fort' ) {
-      return allProjects[0];
+
+  if (project) return project;
+  
+  // Placeholder for other projects
+  if (id === 'project-1' || id === 'project-2' || id === 'project-3' || id === 'project-4' || id === 'project-jaisalmer-cenotaphs' || id === 'project-city-palace' || id === 'project-blue-city' || id === 'project-taragarh-fort' ) {
+      const p = allProjects.find(p => p.id === 'project-amer-stepwell');
+      if (p) return {...p, id: id};
   }
 
-  return project;
+  return undefined;
 }
 
 export default function ProjectDetailPage({ params }: { params: { id: string } }) {
