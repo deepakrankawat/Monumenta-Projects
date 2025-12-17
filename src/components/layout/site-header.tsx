@@ -31,7 +31,7 @@ import {
 
 const aboutLinks = [
   { href: "/about", title: "About Monumenta", description: "Our story, mission, and team." },
-  { href: "/process", title: "Our Process", description: "Our step-by-step methodology." },
+  { href: "/process", title: "Process & Methodology", description: "Our step-by-step methodology." },
   { href: "/services", title: "ASI & Government", description: "Collaboration with government bodies." },
   { href: "/csr", title: "CSR Partnerships", description: "Fulfilling your CSR goals with heritage." },
 ];
@@ -113,7 +113,7 @@ export function SiteHeader() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/projects" legacyBehavior passHref>
+                <Link href="/projects" passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Projects
                   </NavigationMenuLink>
@@ -138,7 +138,7 @@ export function SiteHeader() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/contact" legacyBehavior passHref>
+                <Link href="/contact" passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Contact
                   </NavigationMenuLink>
@@ -221,7 +221,7 @@ const ListItem = React.forwardRef<
   return (
     <li>
       <NavigationMenuLink asChild>
-        <a
+        <Link
           ref={ref}
           className={cn(
             "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
@@ -233,7 +233,7 @@ const ListItem = React.forwardRef<
           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
             {children}
           </p>
-        </a>
+        </Link>
       </NavigationMenuLink>
     </li>
   );
