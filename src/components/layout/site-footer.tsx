@@ -11,8 +11,7 @@ const navLinks = [
 const serviceLinks = [
     { href: "/services", label: "Structural Conservation" },
     { href: "/services", label: "Art Restoration" },
-    { href: "/csr", label: "Heritage Tourism" },
-    { href: "/csr", label: "CSR Consulting" },
+    { href: "/csr", label: "Heritage Tourism & CSR" },
 ];
 
 const socialLinks = [
