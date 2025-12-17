@@ -32,17 +32,16 @@ import {
 const aboutLinks = [
   { href: "/about", title: "About Monumenta", description: "Our story, mission, and team." },
   { href: "/process", title: "Process & Methodology", description: "Our step-by-step methodology." },
-  { href: "/services", title: "ASI & Government", description: "Collaboration with government bodies." },
-  { href: "/csr", title: "CSR Partnerships", description: "Fulfilling your CSR goals with heritage." },
 ];
 
 const serviceLinks = [
-    { href: "/services", title: "Our Services", description: "ASI & government collaboration focus." },
+    { href: "/services", title: "ASI & Government", description: "Collaboration with government bodies." },
+    { href: "/csr", title: "CSR & Community", description: "Fulfilling your CSR goals with heritage." },
     { href: "/projects", title: "Projects & Case Studies", description: "Explore our portfolio of work." },
 ];
 
 const resourcesLinks = [
-    { href: "/insights", title: "All Resources", description: "Articles, guides, and news." },
+    { href: "/insights", title: "Insights Home", description: "Articles, guides, and news." },
     { href: "/insights", title: "Blogs / Articles", description: "Thought leadership on conservation." },
     { href: "/insights", title: "Reports / Publications", description: "In-depth analysis and reports." },
 ];
@@ -87,22 +86,7 @@ export function SiteHeader() {
               <NavigationMenuItem>
                 <NavigationMenuTrigger>Services</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] lg:w-[550px] lg:grid-cols-[.75fr_1fr]">
-                     <li className="row-span-2">
-                      <NavigationMenuLink asChild>
-                        <Link
-                          className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                          href="/services"
-                        >
-                          <div className="mb-2 mt-4 text-lg font-medium font-display text-primary">
-                            Specialized Services
-                          </div>
-                          <p className="text-sm leading-tight text-muted-foreground">
-                            Focused expertise in collaborating with government bodies on heritage conservation.
-                          </p>
-                        </Link>
-                      </NavigationMenuLink>
-                    </li>
+                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] lg:w-[400px]">
                     {serviceLinks.map((link) => (
                          <ListItem key={link.title} title={link.title} href={link.href}>
                             {link.description}
@@ -113,7 +97,7 @@ export function SiteHeader() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/projects" passHref legacyBehavior>
+                <Link href="/projects" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Projects
                   </NavigationMenuLink>
@@ -138,7 +122,7 @@ export function SiteHeader() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/contact" passHref legacyBehavior>
+                <Link href="/contact" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Contact
                   </NavigationMenuLink>
