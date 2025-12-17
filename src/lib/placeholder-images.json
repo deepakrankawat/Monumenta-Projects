@@ -31,6 +31,12 @@
       "imageHint": "Jal Mahal"
     },
     {
+      "id": "project-4",
+      "description": "Facade restoration and structural analysis of the iconic water palace.",
+      "imageUrl": "https://images.unsplash.com/photo-1681759941498-aee00df262a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3YXRlciUyMHBhbGFjZXxlbnwwfHx8fDE3NjU5MzE2MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "water palace"
+    },
+    {
       "id": "avatar-1",
       "description": "Portrait of a government official.",
       "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjU2MDkxMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -149,6 +155,36 @@
       "description": "Long shot of ancient temple ruins being surveyed",
       "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuA0jLkAXgt_y77LI47CrAVzG83U6q6k5umL1MIsJpbbM3ZTsZHzzBndtKZq2rgcP8RGeEv0NV85Nmn0o5r-0QgQWSyAtGiJPvlENra8kj5ww58XyMcVeVxKADGw1_vGmjjdS7Gg6amtZJEGG6U0r-GyYitfLfRUV-bRXkL9xVx4ZTKdEk8boDmyYBjYfNaJjdPGBgjpbwBcfTXV_dpa5PLmipI_Ib46CwIUcsO0FNTfUbxGCzJ-svCAOohHT-yx_lJ6TeP_gA7xLQM",
       "imageHint": "temple ruins"
+    },
+    {
+      "id": "csr-hero",
+      "description": "Majestic wide angle view of an ancient Indian fort in Rajasthan with detailed stone carvings",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuB2t4NaPDsVEIkf1jmhbd4zbVXzjZES8dEPmD9doSVsU6igcIzmhpD3nBrvTYA-J2e5a0sOjrc5gG8eywPGgWK0xGPQ5K4r6hl7-62VJYnHowG-Ijaeq-kwZPgQoKDzC83fW4sZC2Uqoy7URB7xg4gDT3AUkn_e_KAOLiZSQU7FTZTTI5H1oKqBMUNjY_BDGaHPBftmClyouBd4N1hk0y3HE2a3VgObIDlvfsuoFVTFPq7dv52TpSum1_6RdojGTBD3qOsP59x8IAA",
+      "imageHint": "indian fort"
+    },
+    {
+      "id": "csr-adopt",
+      "description": "Close up of intricate stone carvings on an ancient Indian temple",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCOK9f92jgvCL-wDjB5dn1592dF-VUv7ySjhTblE3nNAO9jfTC6fuRCoaggKuppjoVPDaVOi7EA1_-THI66yoBQUB9Q3P9aIeibXb7_Uu21nfMNaQ7nvBj9l5L5SsQiKkkdk6E3QltR02_raPsQfLf5xFFRmrD4imkWc9xUPCvX7YBeFUi-luWKkH2sM3uw9VGa80oJ8qlc3BQikG50v_Vz0ZwSRlijeyS8e3mevbCx_kdvSN6dmygRBAOdG2ayvgTe9WvD4Clg2tk",
+      "imageHint": "temple carvings"
+    },
+    {
+      "id": "csr-skill",
+      "description": "Hands of an artisan working on pottery or stone carving in a workshop",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAiBDcNfi-tpcRutBBsbAEtonJ2fTk4z0n_m7wuGtdI9VtOhCkrapRt0UpxiXenCKEodNTRggvwcUUxmZjwalwioosgbMMZnw6iRZzq9cbaWh_Kw-lSTj-qclXBXIAzM46Ky1Vki4HjtpS0kEjqgaq_SGzqLC0XTvqzlwR6BK6PagF1WvDBlbaKLvkNC0EG8WrEpKiW1-MeRZBDYl5RKWer1SpO83SMMdjGJMWWzlwX9TX4MwJfc7UWEnYeVHABFRQc3bk4AtiY7f0",
+      "imageHint": "artisan hands"
+    },
+    {
+      "id": "csr-amenities",
+      "description": "Modern visitor signage and pathway in a heritage context",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDZrNB4mJIwlgM1Y-J6CPp1uU-k2a9OSajtwavCVVuoHX2Gd3D0xooGXF2nnDQKrFAG9rlkRkgH_l1cl-PlqVEEThHhXgpmX1zWJ-2x04V8cVmX9AQuNagTPrLWNIfpp0oUV3oNzGCXt6rpXqN5wh_GeUPviZTccCA_BFKRMv9YjtvZ_3Fr1qVq25xEyjPtva_ypTnsY6S8ZAoWfFrBi_G0mWMlMLGd_5Qr7lSBAJX3DASeSNBCqDmdZbzJjEE5m8LO_ckhkt6Ti7E",
+      "imageHint": "heritage signage"
+    },
+    {
+      "id": "csr-case-study",
+      "description": "Symmetrical view of a beautiful ancient Indian stepwell architecture",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuARqZsXAvXhxORNzr22hNgiMs6UR2Dc2HWDRvTOi0K-UALnr55UqZsl69oWGNmeOjHed3--dy_deusOUtqxRmous0TufLKqloYc50ZO7X-fAimeoOWpf6XVsxWFJrDOkEAU8UoGe2c6mnET2ahdP61FxlsvKwV1UUGsgv4Qsu_CtQ8b1xsVR_HMSOnAQB9wZR3MKXHqYXnKJ0zccnBg29GwnQ8ijP7_Oj7wqFlqZCdEWvbfHHopknkMzSv65hCvax28M_67oiPlnqE",
+      "imageHint": "indian stepwell"
     }
   ]
 }
