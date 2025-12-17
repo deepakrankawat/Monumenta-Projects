@@ -47,8 +47,8 @@ export function SiteFooter() {
           <div>
               <h4 className="text-lg font-bold mb-8 text-primary-foreground font-display">Quick Links</h4>
               <ul className="space-y-4 text-sm text-secondary/70">
-                {navLinks.map((link) => (
-                  <li key={link.href}>
+                {navLinks.map((link, index) => (
+                  <li key={`${link.href}-${index}`}>
                     <Link href={link.href} className="hover:text-accent transition-colors">
                       {link.label}
                     </Link>
