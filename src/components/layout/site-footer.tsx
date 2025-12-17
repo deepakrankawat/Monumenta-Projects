@@ -5,14 +5,14 @@ const navLinks = [
   { href: "/projects", label: "Our Projects" },
   { href: "/services", label: "Services" },
   { href: "/about", label: "About Us" },
-  { href: "/careers", label: "Careers" },
+  { href: "/insights", label: "Insights" },
 ];
 
 const serviceLinks = [
-    { href: "/services/conservation", label: "Structural Conservation" },
-    { href: "/services/art-conservation", label: "Art Restoration" },
-    { href: "/services/tourism", label: "Heritage Tourism" },
-    { href: "/services/advisory", label: "CSR Consulting" },
+    { href: "/services", label: "Structural Conservation" },
+    { href: "/services", label: "Art Restoration" },
+    { href: "/csr", label: "Heritage Tourism" },
+    { href: "/csr", label: "CSR Consulting" },
 ];
 
 const socialLinks = [

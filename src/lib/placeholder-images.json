@@ -57,7 +57,7 @@
     {
       "id": "about-hero",
       "description": "Intricate Rajasthani stonework architecture",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDr9_bRPX2htJL5kz3-wlj-Um56EGCgYg3iXkfXFgUKq7Nu7tFm375mMC-hM7S6stZCYx1cCmD4j7fC1LgQlo8jSHl97lV7jQoFFhD_VVqne0ZuybAkJmkbQ65SpMD0S5ELKQBd8tvS_7J-p7ISW74EAg-MPmweCkYbFAO1fSOQP6p6UOnuPgCBpIB_rVaR5oShgRsf53dhwhS2mHL5PU0JMrD6egVEBgEJE3Wr-GpeGqydMbCTFD1YkQQDU4h1C8mjGuQhuBEBwZU",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDr9_bRPX2htJL5kz3-wlj-Um56EGCgYg3iXkfXFgUKq7Nu7tFm375mMC-hM7S6stZCYx1cCmD4j7fC1LgQlo8jSHl97lV7jQoFFhD_VVqne0ZuybAkJmkbQ65SpMD0S5ELKQBd8tvS_7J-p7ISW74EAg-MPmweCkYbFAO1fSOQP0p6UOnuPgCBpIB_rVaR5oShgRsf53dhwhS2mHL5PU0JMrD6egVEBgEJE3Wr-GpeGqydMbCTFD1YkQQDU4h1C8mjGuQhuBEBwZU",
       "imageHint": "Rajasthani architecture"
     },
     {
@@ -197,6 +197,36 @@
       "description": "Close up of textured traditional lime plaster wall",
       "imageUrl": "https://images.unsplash.com/photo-1581303192273-353242a92555?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "lime plaster"
+    },
+    {
+      "id": "insights-hero",
+      "description": "A scholar or architect examining ancient manuscripts in a library.",
+      "imageUrl": "https://images.unsplash.com/photo-1558901357-ca422fb45353?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhcmNoaXRlY3QlMjByZWFkaW5nJTIwYW5jaWVudCUyMHRleHR8ZW58MHx8fHwxNzY2MDYyMjAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "scholar library"
+    },
+    {
+      "id": "insights-1",
+      "description": "A beautifully restored heritage building facade.",
+      "imageUrl": "https://images.unsplash.com/photo-1616047006789-b7af52592bef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZXJpdGFnZSUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2NjA2MjI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "heritage building"
+    },
+    {
+      "id": "insights-2",
+      "description": "A close-up of a restored stepwell in Bundi, Rajasthan.",
+      "imageUrl": "https://images.unsplash.com/photo-1608383995952-447037207e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidW5kaSUyMHN0ZXB3ZWxsfGVufDB8fHx8MTc2NjA2MjI4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Bundi stepwell"
+    },
+    {
+      "id": "insights-3",
+      "description": "Corporate professionals in a meeting, discussing a project.",
+      "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBtZWV0aW5nfGVufDB8fHx8MTc2NjA2MjMxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corporate meeting"
+    },
+    {
+      "id": "insights-4",
+      "description": "A texture shot of wet lime mortar being applied to a wall.",
+      "imageUrl": "https://images.unsplash.com/photo-1579483324632-171433285923?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsaW1lJTIwbW9ydGFyfGVufDB8fHx8MTc2NjA2MjM0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lime mortar"
     }
   ]
 }
