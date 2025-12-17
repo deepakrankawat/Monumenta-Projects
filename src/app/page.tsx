@@ -9,7 +9,7 @@ import { ContactSection } from "@/components/landing/contact-section";
 
 export default function Home() {
   return (
-    <>
+    <div className="pt-20 md:pt-24">
       <HeroSection />
       <IntroSection />
       <PillarsSection />
@@ -18,6 +18,6 @@ export default function Home() {
       <CsrSection />
       <TestimonialsSection />
       <ContactSection />
-    </>
+    </div>
   );
 }

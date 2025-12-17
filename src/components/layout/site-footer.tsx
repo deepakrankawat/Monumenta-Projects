@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { Container } from "../container";
 
-const navLinks = [
-  { href: "/projects", label: "Our Projects" },
-  { href: "/services", label: "Services" },
+const mainLinks = [
   { href: "/about", label: "About Us" },
+  { href: "/services", label: "Services" },
+  { href: "/projects", label: "Our Projects" },
   { href: "/insights", label: "Insights" },
+  { href: "/contact", label: "Contact" },
 ];
 
 const serviceLinks = [
@@ -52,7 +53,7 @@ export function SiteFooter() {
           <div className="col-span-1">
               <h4 className="text-base md:text-lg font-bold mb-6 md:mb-8 text-primary-foreground font-display">Quick Links</h4>
               <ul className="space-y-4 text-sm text-secondary/70">
-                {navLinks.map((link, index) => (
+                {mainLinks.map((link, index) => (
                   <li key={index}>
                     <Link href={link.href} className="hover:text-accent transition-colors">
                       {link.label}
@@ -63,7 +64,7 @@ export function SiteFooter() {
           </div>
             
           <div className="col-span-1">
-              <h4 className="text-base md:text-lg font-bold mb-6 md:mb-8 text-primary-foreground font-display">Services</h4>
+              <h4 className="text-base md:text-lg font-bold mb-6 md:mb-8 text-primary-foreground font-display">Focus Areas</h4>
               <ul className="space-y-4 text-sm text-secondary/70">
                 {serviceLinks.map((link, index) => (
                   <li key={index}>

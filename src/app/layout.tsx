@@ -30,7 +30,7 @@ export default function RootLayout({
       <body className={cn("min-h-screen bg-background font-body text-foreground antialiased selection:bg-primary selection:text-white")}>
         <div className="relative flex min-h-dvh flex-col">
           <SiteHeader />
-          <main className="flex-1 pt-20 md:pt-24">
+          <main className="flex-1">
             {children}
           </main>
           <SiteFooter />
