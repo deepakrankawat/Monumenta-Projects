@@ -82,10 +82,10 @@ export function SiteHeader() {
                         {component.description}
                       </ListItem>
                     ))}
-                    <ListItem className="md:col-span-2" title="ASI & Government Collaboration" href="/services">
+                     <ListItem title="ASI & Government Collaboration" href="/services">
                       A trusted execution partner for government bodies.
                     </ListItem>
-                    <ListItem className="md:col-span-2" title="CSR & Corporate Partnerships" href="/csr">
+                    <ListItem title="CSR & Corporate Partnerships" href="/csr">
                       Create lasting social and cultural impact.
                     </ListItem>
                   </ul>
@@ -109,9 +109,9 @@ export function SiteHeader() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/projects" passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Projects
+                <Link href="/projects" legacyBehavior passHref>
+                  <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                    <Link href="/projects">Projects</Link>
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
@@ -131,14 +131,6 @@ export function SiteHeader() {
                     ))}
                   </ul>
                 </NavigationMenuContent>
-              </NavigationMenuItem>
-
-              <NavigationMenuItem>
-                  <Link href="/contact" passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                      Contact
-                    </NavigationMenuLink>
-                  </Link>
               </NavigationMenuItem>
 
             </NavigationMenuList>
