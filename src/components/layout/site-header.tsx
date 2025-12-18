@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from "next/link";
@@ -82,7 +83,7 @@ export function SiteHeader() {
                         {component.description}
                       </ListItem>
                     ))}
-                     <ListItem title="ASI & Government Collaboration" href="/services">
+                    <ListItem title="ASI & Government Collaboration" href="/services">
                       A trusted execution partner for government bodies.
                     </ListItem>
                     <ListItem title="CSR & Corporate Partnerships" href="/csr">
@@ -109,7 +110,7 @@ export function SiteHeader() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/projects" legacyBehavior passHref>
+                <Link href="/projects" passHref>
                   <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
                     <Link href="/projects">Projects</Link>
                   </NavigationMenuLink>
@@ -131,6 +132,13 @@ export function SiteHeader() {
                     ))}
                   </ul>
                 </NavigationMenuContent>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Link href="/contact" passHref>
+                  <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                    <Link href="/contact">Contact</Link>
+                  </NavigationMenuLink>
+                </Link>
               </NavigationMenuItem>
 
             </NavigationMenuList>
