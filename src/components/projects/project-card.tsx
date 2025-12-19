@@ -27,8 +27,9 @@ export function ProjectCard({ project }: { project: Project }) {
             src={project.image.imageUrl}
             alt={project.image.description}
             data-ai-hint={project.image.imageHint}
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
+            width={400}
+            height={300}
+            className="object-cover transition-transform duration-700 group-hover:scale-110 w-full h-full"
           />
         )}
         <div className="absolute inset-0 bg-primary/20 mix-blend-multiply opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>

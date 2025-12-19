@@ -9,7 +9,7 @@ const projects = [
     id: "project-1",
     title: "Shekhawati Haveli Project",
     location: "Mandawa, Rajasthan",
-    image: PlaceHolderImages.find(p => p.id === 'project-1'),
+    image: PlaceHolderImages.find(p => p.id === 'shekhawati-haveli-after'),
     tags: ["CSR Funded", "Ongoing"],
     span: "lg:col-span-2",
     description: "ASI-protected stepwell, structural conservation & site development"
@@ -18,7 +18,7 @@ const projects = [
     id: "project-2",
     title: "Amber Watchtower",
     location: "Jaipur, Rajasthan",
-    image: PlaceHolderImages.find(p => p.id === 'project-2'),
+    image: PlaceHolderImages.find(p => p.id === 'amer-watchtower-restored'),
     tags: ["Completed"],
     span: "",
     description: "Restoration of a historic watchtower overlooking Amber Palace."
@@ -27,7 +27,7 @@ const projects = [
     id: "project-3",
     title: "Bundi Stepwell",
     location: "Bundi, Rajasthan",
-    image: PlaceHolderImages.find(p => p.id === 'hero-background'),
+    image: PlaceHolderImages.find(p => p.id === 'hawa-mahal-facade-main'),
     tags: ["ASI Partnership"],
     span: "",
     description: "Meticulous cleaning and structural repair of a 16th-century stepwell."
@@ -36,7 +36,7 @@ const projects = [
     id: "project-4",
     title: "Jal Mahal Conservation",
     location: "Jaipur, Rajasthan",
-    image: PlaceHolderImages.find(p => p.id === 'project-3'),
+    image: PlaceHolderImages.find(p => p.id === 'jal-mahal-night'),
     tags: ["Award Winning"],
     span: "lg:col-span-2",
     description: "Facade restoration and structural analysis of the iconic water palace."

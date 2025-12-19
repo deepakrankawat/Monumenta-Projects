@@ -3,7 +3,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Container } from "../container";
 
 export function ProcessHero() {
-  const heroImage = PlaceHolderImages.find((p) => p.id === "process-hero");
+  const heroImage = PlaceHolderImages.find((p) => p.id === "architectural-blueprints");
 
   return (
     <section className="relative w-full pt-40 pb-16 bg-background">

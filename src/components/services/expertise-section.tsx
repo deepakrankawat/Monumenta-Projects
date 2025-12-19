@@ -22,7 +22,7 @@ const standards = [
 ]
 
 export function ExpertiseSection() {
-    const expertiseImage = PlaceHolderImages.find(p => p.id === 'asi-expertise');
+    const expertiseImage = PlaceHolderImages.find(p => p.id === 'architectural-blueprints');
     
     return (
         <section className="py-24 bg-card border-y border-border">

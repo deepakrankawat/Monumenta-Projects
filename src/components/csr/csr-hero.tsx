@@ -5,7 +5,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Container } from "../container";
 
 export function CsrHero() {
-  const heroImage = PlaceHolderImages.find((p) => p.id === "csr-hero");
+  const heroImage = PlaceHolderImages.find((p) => p.id === "indian-fort-wide");
 
   return (
     <section className="w-full flex justify-center py-6 px-4 md:px-10 pt-28">

@@ -5,7 +5,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Container } from "../container";
 
 export function FeaturedCaseStudy() {
-  const caseStudyImage = PlaceHolderImages.find((p) => p.id === "csr-case-study");
+  const caseStudyImage = PlaceHolderImages.find((p) => p.id === "indian-stepwell-symmetric");
 
   return (
     <section className="w-full py-16 px-4 md:px-10 bg-background">

@@ -31,8 +31,9 @@ export function ArticleCard({ article }: { article: Article }) {
             src={article.image.imageUrl}
             alt={article.image.description}
             data-ai-hint={article.image.imageHint}
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
+            width={400}
+            height={250}
+            className="object-cover transition-transform duration-700 group-hover:scale-110 w-full h-full"
           />
         )}
       </Link>

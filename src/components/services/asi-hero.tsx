@@ -4,7 +4,7 @@ import { Container } from "../container";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export function AsiHero() {
-  const heroImage = PlaceHolderImages.find((p) => p.id === "asi-hero");
+  const heroImage = PlaceHolderImages.find((p) => p.id === "scholar-in-library");
 
   return (
     <Container className="py-8 pt-28">

@@ -19,7 +19,7 @@ const locations = [
 ]
 
 export function LocationsSection() {
-    const mapImage = PlaceHolderImages.find(p => p.id === 'map-india');
+    const mapImage = PlaceHolderImages.find(p => p.id === 'rajasthan-map');
 
     return (
         <section className="py-24 bg-background relative">

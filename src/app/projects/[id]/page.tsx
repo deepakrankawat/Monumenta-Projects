@@ -26,8 +26,8 @@ const getProjectData = (id: string) => {
         challenges: "Working within a high-traffic tourist zone, sourcing authentic lime mortar, and ensuring structural stability during restoration.",
         solutions: "Phased work schedule, establishing a local lime kiln, and continuous 3D monitoring of the structure.",
         techniques: ["Lime Mortar (Chuna Surkhi)", "Araish Plaster", "Stone Masonry"],
-        beforeImage: PlaceHolderImages.find((p) => p.id === "project-amer-stepwell-before"),
-        afterImage: PlaceHolderImages.find((p) => p.id === "project-amer-stepwell"),
+        beforeImage: PlaceHolderImages.find((p) => p.id === "amer-stepwell-before"),
+        afterImage: PlaceHolderImages.find((p) => p.id === "amer-stepwell-after"),
         impact: "The project has successfully stabilized the structure, revived traditional crafts, and enhanced the visitor experience at this key heritage site.",
       },
       {
@@ -45,8 +45,8 @@ const getProjectData = (id: string) => {
         challenges: "Dealing with extensive water damage and finding artisans skilled in traditional Shekhawati painting styles.",
         solutions: "Advanced damp-proofing measures and collaboration with the last remaining fresco artist families in the region.",
         techniques: ["Fresco Secco", "Lime Plaster", "Natural Pigments"],
-        beforeImage: PlaceHolderImages.find(p => p.id === 'project-1-before'),
-        afterImage: PlaceHolderImages.find(p => p.id === 'project-1'),
+        beforeImage: PlaceHolderImages.find(p => p.id === 'shekhawati-haveli-before'),
+        afterImage: PlaceHolderImages.find(p => p.id === 'shekhawati-haveli-after'),
         impact: "The project is set to revive a significant cultural landmark, creating local employment and promoting heritage tourism.",
       }
   ];

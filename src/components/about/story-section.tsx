@@ -24,7 +24,7 @@ const timeline = [
 ];
 
 export function StorySection() {
-  const storyImage = PlaceHolderImages.find(p => p.id === 'about-story');
+  const storyImage = PlaceHolderImages.find(p => p.id === 'artisan-carving-stone');
 
   return (
     <section className="py-24 relative bg-background">

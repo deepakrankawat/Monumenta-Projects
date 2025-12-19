@@ -1,250 +1,238 @@
 {
   "placeholderImages": [
     {
-      "id": "image-3",
+      "id": "hawa-mahal-facade-alt",
       "description": "An alternate view of the Hawa Mahal palace in Jaipur, showcasing its pink sandstone architecture.",
-      "imageUrl": "https://images.unsplash.com/photo-1763105051908-17637946726b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxIYXdhJTIwTWFoYWwlMjBmYWNhZGV8ZW58MHx8fHwxNzY2MTIzNTkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-1.jpg",
       "imageHint": "Hawa Mahal facade"
     },
     {
-      "id": "hero-background",
+      "id": "hawa-mahal-facade-main",
       "description": "The intricate facade of Hawa Mahal in Jaipur, India.",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDX5Txs_ykvcV9uwSroPQaE-Ys1ZyFdKeVZZ4w7hqA9d0xIxp0vqTx3H5T-NALGYLOqwzhHITztJu9wR3_EM3LoL8qP03biZ2PodgY6mqR9IUGkqHZRBtSEdyDnEVwPj1QDs4KyHV041K9dJ4rKIJSYljsOC3rlX3n2RKqQyXhjWrCX4n0rYoAv0PYnu7UFm_c0S0gnVH5yJ8bLydqWyH8UBY7WqTcsAQiAs3XxMv9HNGyVMZ6-v8183KUT4NvRNLgXs7rKfukXuXM",
+      "imageUrl": "/images/image-2.jpg",
       "imageHint": "Hawa Mahal"
     },
     {
-      "id": "project-1",
+      "id": "shekhawati-haveli-after",
       "description": "An intricately carved archway of a Shekhavati Haveli in Rajasthan.",
-      "imageUrl": "https://images.unsplash.com/photo-1688911397011-6387d7b34d74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzaGVraGF2YXRpJTIwaGF2ZWxpfGVufDB8fHx8MTc2NTg1OTEwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-3.jpg",
       "imageHint": "Shekhavati haveli"
     },
     {
-      "id": "project-1-before",
+      "id": "shekhawati-haveli-before",
       "description": "A dilapidated Shekhavati Haveli before restoration.",
-      "imageUrl": "https://images.unsplash.com/photo-1667701821776-93b5c979aa8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGlsYXBpZGF0ZWQlMjBoYXZlbGl8ZW58MHx8fHwxNzY1ODg3Mjk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-4.jpg",
       "imageHint": "dilapidated haveli"
     },
     {
-      "id": "project-2",
+      "id": "amer-watchtower-restored",
       "description": "The domed ceiling of a restored palace in Amer, showing detailed mirror work.",
-      "imageUrl": "https://images.unsplash.com/photo-1595085444936-e17415286a11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtaXJyb3IlMjB3b3JrJTIwamFpcHVyfGVufDB8fHx8MTc2NTg1OTE1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-5.jpg",
       "imageHint": "mirror work"
     },
     {
-      "id": "project-3",
+      "id": "jal-mahal-night",
       "description": "Jal Mahal palace seemingly floating on Man Sagar Lake in Jaipur at night.",
-      "imageUrl": "https://images.unsplash.com/photo-1599902636323-25a8a17c672b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxKYWwlMjBNYWhhbCUyMEphaXB1cnxlbnwwfHx8fDE3NjU4NTkyMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-6.jpg",
       "imageHint": "Jal Mahal"
     },
     {
-      "id": "project-4",
+      "id": "water-palace-facade",
       "description": "Facade restoration and structural analysis of the iconic water palace.",
-      "imageUrl": "https://images.unsplash.com/photo-1681759941498-aee00df262a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3YXRlciUyMHBhbGFjZXxlbnwwfHx8fDE3NjU5MzE2MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-7.jpg",
       "imageHint": "water palace"
     },
     {
-      "id": "avatar-1",
+      "id": "portrait-official-man",
       "description": "Portrait of a government official.",
-      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjU2MDkxMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-8.jpg",
       "imageHint": "man portrait"
     },
     {
-      "id": "avatar-2",
+      "id": "portrait-architect-woman-alt",
       "description": "Portrait of an architect.",
-      "imageUrl": "https://images.unsplash.com/photo-1610655507808-a59293f4e332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NTU0OTc0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-9.jpg",
       "imageHint": "woman portrait"
     },
     {
-      "id": "avatar-3",
+      "id": "portrait-community-leader",
       "description": "Portrait of a community leader.",
-      "imageUrl": "https://images.unsplash.com/photo-1583195763986-0231686dcd43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjU2MDkxMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-10.jpg",
       "imageHint": "man portrait"
     },
     {
-      "id": "about-hero",
+      "id": "rajasthani-architecture",
       "description": "Intricate Rajasthani stonework architecture",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDr9_bRPX2htJL5kz3-wlj-Um56EGCgYg3iXkfXFgUKq7Nu7tFm375mMC-hM7S6stZCYx1cCmD4j7fC1LgQlo8jSHl97lV7jQoFFhD_VVqne0ZuybAkJmkbQ65SpMD0S5ELKQBd8tvS_7J-p7ISW74EAg-MPmweCkYbFAO1fSOQP0p6UOnuPgCBpIB_rVaR5oShgRsf53dhwhS2mHL5PU0JMrD6egVEBgEJE3Wr-GpeGqydMbCTFD1YkQQDU4h1C8mjGuQhuBEBwZU",
+      "imageUrl": "/images/image-11.jpg",
       "imageHint": "Rajasthani architecture"
     },
     {
-      "id": "about-story",
+      "id": "artisan-carving-stone",
       "description": "Restoration expert working on stone carving",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAfCTSlLJM8Sa9w0g2oNk62n1xnVcVpjkN1q0-79pGBLLA3A4034ruxstRdBuHMjBPj4GpZu9lxZZCEvDZLZfmJoxBvqA8I0te37K71dsfDKjWTFuugmqhsStcESDKcPEnC7jZe4QTYcYtBcQGW4TZ7DBH8d9hq-FhTYtM6IiQB_BG_Brk151arzUfAtgN10cVqXXSSNl2wxHMR1CkbbsucJKxAVk8LFqXknDx5ulTHpHVtKwKbyVfQVoU04psfB9w4p_VZngnpbDo",
+      "imageUrl": "/images/image-12.jpg",
       "imageHint": "artisan carving"
     },
     {
-      "id": "about-approach",
+      "id": "stone-texture-wall",
       "description": "Detailed close up of weathered stone texture wall",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBHy4YINvremx80k1EkyEuNIpzhDvxEP91VjGDP3Air8fnFhhEjpr38xM6pofu5foVTsXGwMupbq-yaOnDCmGmWrbIzBnmjaZMaax00vi2efcBIrqman6kDh4gabf2RBzS0yQ6JiRrc6njljlo0oqXkph7Gtlx3y-BcIXNNYXmda26EX8vnHYd1tQTe48WSV0pNS5pEqCwreE4IeSD962c6eSOLV67l_fnf6hRtYprZDCjzWNYNC1f2dxUxAeD7Fr0NsqBnQx63P5E",
+      "imageUrl": "/images/image-13.jpg",
       "imageHint": "stone texture"
     },
     {
-      "id": "map-india",
+      "id": "rajasthan-map",
       "description": "Map of India highlighting Rajasthan",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC-KQ3uPV4lb5VOaX17QCIB79G0Vr-J-v7tj8uPeEILnqpuEIt4sGTicLjjA7vhIn__iF4xkT4j2Xf6nMHjR-_W9Pzo1Rt9pCQXz09_DP5xUTrUfV-1mNvS4S_9622cZF0byI3pjw4a1lg-xkp_TXrsHUdMU13zKRr9zvFW1IqosVESOVNoBGT-lSvqS5-WdXm38te0ZSjicjVbzMQ84JpF8gg3OMfGm8HzWpHfeJB17CkLuwuK8iORa4T_VYy9FLOLXTJWg3vFDiE",
+      "imageUrl": "/images/image-14.png",
       "imageHint": "India map"
     },
     {
-      "id": "team-1",
+      "id": "portrait-architect-woman",
       "description": "Professional portrait of a woman architect",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCUhzCR1C-VOxuNiF7umJywmcQFlvecvn8e6FcTTZ1zl90V3HKkgBROpyli0yUg-_deoqs7iUxjpXAgJgu5MFLOe9R45UYRzV3ZoltGISCkY8EtfOceGkIvZPfSC02aFXzRZZUywgYr6S1zJnbXElVXpx09YTjxmci-I0o4hrPDNsGe9x-7DGwwsbdBKk2k0QJGAbs8NkcwfYN9ClWGMgj7095D68nZmzYEXFfHLTHWVDYd9KY2AUQkDiJFc8fIqhqmn7P_O0MoYT8",
+      "imageUrl": "/images/image-15.jpg",
       "imageHint": "woman architect"
     },
     {
-      "id": "team-2",
+      "id": "portrait-man-business",
       "description": "Professional portrait of a man in business casual",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCoBG9uvdon7XcI6zy_TZBLvSUqQrU2U3hFeI3vYOcXJVsNXMAedkc5Tsh78T50qLGaY4Da3060df7Qnu48A1iqGmVkWq88IMRvAdKIYiaspnUNXbxuJCW2eAk0J5FLxH8a3j5S6bvuf1JnZ6T2xSPEErjIMzCLgYogpWtaHtTw1i7hVuB8tayTUqurtvqNpGqgdnXPRuh3dIN6u6jSkRs9TQ113XbVpeaHgCUk7aalT5ueN9agjQx7ut1DYfou8-K5oSROepXYMnY",
+      "imageUrl": "/images/image-16.jpg",
       "imageHint": "man portrait"
     },
     {
-      "id": "team-3",
+      "id": "portrait-researcher-woman",
       "description": "Professional portrait of a woman researcher",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBkUG6nmmDdpKNmdkQ91OfaGF8ZdObXlHtzM6WP2BcZMujFj7wgLmBx2dx46J2A9Pb92jUid1xlctXOg1ybxPDg-FZMhdTxN4pMPGVG7ijDRBr_Cy3oyfYgBjNCQZTkDf2A9_2KaDDw2ME6BVBWj2JovkzxxvlBDfrhugKE4jxZhNukfMW2GNn6rZ7kDv1DKvmJhgx6ikgSxMQq2kpfYtSZeTX9mRBu5uQhwLTpaewQpArbfPQbZgG45QeWKlTUrjZCfg0xhtujl5g",
+      "imageUrl": "/images/image-17.jpg",
       "imageHint": "woman researcher"
     },
     {
-      "id": "team-4",
+      "id": "portrait-engineer-man",
       "description": "Professional portrait of a man engineer",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC3QdS8TYKBorKLdvpazPTbCB0rg7oOCg-vI6uR9jO1mTf93SyufuUmeJxjX7HxLkNoiqaYHjC3sIOMO_sExsJzM7jrkWtjvoC5whC-CnZlbAUSFX7_GQRhcFn8mlHjnJswOcPrNJnX6n-K0iF5pkthQkXsWP6Qmt3H1eMtEI4yTYxwzf8cNGZtyUzmXvIJtng3jrvLyydqmJIPHpXED2YE3BPq4wGPpny3qgoXs8rWIVxBBGc0Z_ZTwPZABclCOCcVW60QGyn9vfA",
+      "imageUrl": "/images/image-18.jpg",
       "imageHint": "man engineer"
     },
     {
-      "id": "services-hero",
+      "id": "sandstone-wall-texture",
       "description": "Close up texture of ancient sandstone wall with dramatic lighting",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC4XCu5kAHa-8VB66S9-W8hlhuN_yUzlUCAUcTLVe1gh8B8DtF8YH_gTdlcUxyxmO5dPX8RERvAt4M8qGbsY6wRUrlwIy5gaoj2nO9i8P4Krgqe2ZOVHnV-9Noin3IVwg5RXRJRctSNS-83fdwKcnbVqNz3NCb9a17oJQ9XrYOvducwa-SCkZs8qAsxNl0ntbxZjCOkfzaW7Z-uAI8ypvTU2XdiwZHYK___Pwlhiz9HE5RIWkPpx3vPrAUL57Yd7d71-TWqx8_8gJY",
+      "imageUrl": "/images/image-19.jpg",
       "imageHint": "sandstone texture"
     },
     {
-      "id": "projects-hero",
+      "id": "fort-restoration-sunset",
       "description": "Restoration of ancient fort walls in Rajasthan during sunset",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuD_1S1XGJSEUz6DGqZRp6gEX3DeDNF198xsMUhtXBUQzerRuHjcFLoQ0-4VA4BdnCXN6IU_cv2vcd7j3zxk9fH7fJDjpncW7tMHl2GXzUOc3kiRoVg3llBxW9JEpbyBWeJcF7e27-xzVfw3llRLUYl2TXPIszkFq49VCsEF_kdH4Rxz0sTf3gocOp14Dsx6YnrXrw0rILhp4-yF_I_l7do-mTyfByVDjtaTJestZ6Z7-A7xuJmauybru_3BQl7GbX6S702f0LuuFWA",
+      "imageUrl": "/images/image-20.jpg",
       "imageHint": "fort restoration"
     },
     {
-      "id": "project-amer-stepwell",
+      "id": "amer-stepwell-after",
       "description": "Intricate stone carving detail of a historic fort wall",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDtc99hPY_EnILfC2pAV_qHM4TDs01KLQfvGfi5152ZRh6oRGtgBDWxXqQNSgxesDrt7GflqZlLQzqD4C8muW_CRj51yhp8fgAG3-g6y7V-OM2E_h28Ok6cFu3RzqC8-VmrRIbkxHYfU2ZrfYTpG0G8EMLHxLkQjFNkCLRkEjEjR2ZXmFssjuZcwTR2YmstGRgGTjXXXcDICgO0RcQDBjhHlvT2ZdNw9GD100stgN1e9vrjBmWC7bcFlJJBJwFhCzX4qp7GhAdXdOw",
+      "imageUrl": "/images/image-21.jpg",
       "imageHint": "stone carving"
     },
     {
-      "id": "project-amer-stepwell-before",
+      "id": "amer-stepwell-before",
       "description": "Degraded stone and overgrowth at Amer stepwell before restoration",
-      "imageUrl": "https://images.unsplash.com/photo-1761408942413-ba3172115e7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxydWluZWQlMjBzdGVwd2VsbHxlbnwwfHx8fDE3NjU4ODcyOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-22.jpg",
       "imageHint": "ruined stepwell"
     },
     {
-      "id": "project-mandawa-haveli",
+      "id": "haveli-frescoes",
       "description": "Interior fresco paintings in a Haveli",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuD7uOj1Gqq6Heo4gSvgaQ7hcU3ahL_z3fjJThFySBL957J_qJzgvzyINa9ztLFJoyomBc2AFZcre7UeEH_5fAGPDag0XXiFSYsXatO9AdBWRKf4GyuLhpSa4quEJ73iOqBJ5mRK-BEXNeGelJGMfDlx4zfvDasTf8V61itVbUwFkzkhHPu5918oKpvc0OiFe_wOIuo4FhXzoCvAuuDUTqGbhsdhdDWYU-rnwQrrg6o7eYDrDn4Rj3XbI5lDUAP26nCDcw8pbYJtZ_U",
+      "imageUrl": "/images/image-23.jpg",
       "imageHint": "fresco paintings"
     },
     {
-      "id": "project-jaisalmer-cenotaphs",
+      "id": "jaisalmer-cenotaph",
       "description": "Wide shot of a sandstone cenotaph against a blue sky",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMbgASds7v6pLkZWW6psM8WSXfAKn__YDLo1UBpLslmRtBUo8gmsh_EVnxcFXJtIRhChiaRSDWZaO-19MRDiEFa1kdUnafxOCArLUJBjcEizvhrhx0d7AHDQCkA42Zk7HStNIb9yU0xbShAPTmGcNsEM1o-m8K4uhEmbsKwqTBdaAwJaYFL1u0hz-HOyrXHM-TrGI2H7c-hKSgjISL09jFX4d72JmcG0IUDgR0UdDwiGrAwBqKptOizJqOmDCp6o8IJl5tSAn1-1I",
+      "imageUrl": "/images/image-24.jpg",
       "imageHint": "sandstone cenotaph"
     },
     {
-      "id": "project-city-palace",
+      "id": "jali-window-detail",
       "description": "Detail of intricate window jali work in stone",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDAEMb82va_bgCsJhNucySYCR9a-EVLRA6q7zdrV00BTUCtHPDRg1SJG6SYoNpQ_7M3h1BaSB-WKlylL34QPKVRRqEB3gIUkcFWnH-WbxF9nya71WOJywnGhZhJCu8GluAWddNADSZsbifKFzK53uTXPVcaPhDr95rxNeUN4NOF0mzlsiHuhYkjh0c2nfe32G9-mExVgIL6bz8nHTWKejokflsgQKl9JL5ojdbiSWflJparPf91aNau2YdNe1UpIPJpdebc9dF_x_E",
+      "imageUrl": "/images/image-25.jpg",
       "imageHint": "jali work"
     },
     {
-      "id": "project-blue-city",
+      "id": "heritage-courtyard-restored",
       "description": "Restored interior courtyard of a heritage building",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCBLTDTJHj_EwVWcrSFkc4RqZby4JtxkGd0sVdaj67CBchyqx72uzY7hfRMelZJD1IMyfid8CMvJCJJ6L4sXeYboqsObvLAfzCYW8FolGfddInZTFpJAu1xdHRfc85s3msOyXeCfoIPEaRUqM8ezFSgdlNsDcUgOqE4CrG_4rU2LgcYMWFJjkVj-inPZiB-iOgzICcRQGhmwcDar6zF2qFHParFjMGWWKS2sU8j6aDzL16O0TpgJwraNwCEUIRGd9c8FaGOhAZydiE",
+      "imageUrl": "/images/image-26.jpg",
       "imageHint": "heritage courtyard"
     },
     {
-      "id": "project-taragarh-fort",
+      "id": "temple-ruins-survey",
       "description": "Long shot of ancient temple ruins being surveyed",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuA0jLkAXgt_y77LI47CrAVzG83U6q6k5umL1MIsJpbbM3ZTsZHzzBndtKZq2rgcP8RGeEv0NV85Nmn0o5r-0QgQWSyAtGiJPvlENra8kj5ww58XyMcVeVxKADGw1_vGmjjdS7Gg6amtZJEGG6U0r-GyYitfLfRUV-bRXkL9xVx4ZTKdEk8boDmyYBjYfNaJjdPGBgjpbwBcfTXV_dpa5PLmipI_Ib46CwIUcsO0FNTfUbxGCzJ-svCAOohHT-yx_lJ6TeP_gA7xLQM",
+      "imageUrl": "/images/image-27.jpg",
       "imageHint": "temple ruins"
     },
     {
-      "id": "csr-hero",
+      "id": "indian-fort-wide",
       "description": "Majestic wide angle view of an ancient Indian fort in Rajasthan with detailed stone carvings",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuB2t4NaPDsVEIkf1jmhbd4zbVXzjZES8dEPmD9doSVsU6igcIzmhpD3nBrvTYA-J2e5a0sOjrc5gG8eywPGgWK0xGPQ5K4r6hl7-62VJYnHowG-Ijaeq-kwZPgQoKDzC83fW4sZC2Uqoy7URB7xg4gDT3AUkn_e_KAOLiZSQU7FTZTTI5H1oKqBMUNjY_BDGaHPBftmClyouBd4N1hk0y3HE2a3VgObIDlvfsuoFVTFPq7dv52TpSum1_6RdojGTBD3qOsP59x8IAA",
+      "imageUrl": "/images/image-28.jpg",
       "imageHint": "indian fort"
     },
     {
-      "id": "csr-adopt",
+      "id": "temple-carvings-close-up",
       "description": "Close up of intricate stone carvings on an ancient Indian temple",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCOK9f92jgvCL-wDjB5dn1592dF-VUv7ySjhTblE3nNAO9jfTC6fuRCoaggKuppjoVPDaVOi7EA1_-THI66yoBQUB9Q3P9aIeibXb7_Uu21nfMNaQ7nvBj9l5L5SsQiKkkdk6E3QltR02_raPsQfLf5xFFRmrD4imkWc9xUPCvX7YBeFUi-luWKkH2sM3uw9VGa80oJ8qlc3BQikG50v_Vz0ZwSRlijeyS8e3mevbCx_kdvSN6dmygRBAOdG2ayvgTe9WvD4Clg2tk",
+      "imageUrl": "/images/image-29.jpg",
       "imageHint": "temple carvings"
     },
     {
-      "id": "csr-skill",
+      "id": "artisan-hands-pottery",
       "description": "Hands of an artisan working on pottery or stone carving in a workshop",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAiBDcNfi-tpcRutBBsbAEtonJ2fTk4z0n_m7wuGtdI9VtOhCkrapRt0UpxiXenCKEodNTRggvwcUUxmZjwalwioosgbMMZnw6iRZzq9cbaWh_Kw-lSTj-qclXBXIAzM46Ky1Vki4HjtpS0kEjqgaq_SGzqLC0XTvqzlwR6BK6PagF1WvDBlbaKLvkNC0EG8WrEpKiW1-MeRZBDYl5RKWer1SpO83SMMdjGJMWWzlwX9TX4MwJfc7UWEnYeVHABFRQc3bk4AtiY7f0",
+      "imageUrl": "/images/image-30.jpg",
       "imageHint": "artisan hands"
     },
     {
-      "id": "csr-amenities",
+      "id": "heritage-site-signage",
       "description": "Modern visitor signage and pathway in a heritage context",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDZrNB4mJIwlgM1Y-J6CPp1uU-k2a9OSajtwavCVVuoHX2Gd3D0xooGXF2nnDQKrFAG9rlkRkgH_l1cl-PlqVEEThHhXgpmX1zWJ-2x04V8cVmX9AQuNagTPrLWNIfpp0oUV3oNzGCXt6rpXqN5wh_GeUPviZTccCA_BFKRMv9YjtvZ_3Fr1qVq25xEyjPtva_ypTnsY6S8ZAoWfFrBi_G0mWMlMLGd5Qr7lSBAJX3DASeSNBCqDmdZbzJjEE5m8LO_ckhkt6Ti7E",
+      "imageUrl": "/images/image-31.jpg",
       "imageHint": "heritage signage"
     },
     {
-      "id": "csr-case-study",
+      "id": "indian-stepwell-symmetric",
       "description": "Symmetrical view of a beautiful ancient Indian stepwell architecture",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuARqZsXAvXhxORNzr22hNgiMs6UR2Dc2HWDRvTOi0K-UALnr55UqZsl69oWGNmeOjHed3--dy_deusOUtqxRmous0TufLKqloYc50ZO7X-fAimeoOWpf6XVsxWFJrDOkEAU8UoGe2c6mnET2ahdP61FxlsvKwV1UUGsgv4Qsu_CtQ8b1xsVR_HMSOnAQB9wZR3MKXHqYXnKJ0zccnBg29GwnQ8ijP7_Oj7wqFlqZCdEWvbfHHopknkMzSv65hCvax28M_67oiPlnqE",
+      "imageUrl": "/images/image-32.jpg",
       "imageHint": "indian stepwell"
     },
     {
-      "id": "process-hero",
+      "id": "architectural-blueprints",
       "description": "Architectural blueprints and tools on a wooden desk",
-      "imageUrl": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "/images/image-33.jpg",
       "imageHint": "architectural blueprints"
     },
     {
-      "id": "process-standards",
+      "id": "lime-plaster-texture",
       "description": "Close up of textured traditional lime plaster wall",
-      "imageUrl": "https://images.unsplash.com/photo-1581303192273-353242a92555?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "/images/image-34.jpg",
       "imageHint": "lime plaster"
     },
     {
-      "id": "insights-hero",
+      "id": "scholar-in-library",
       "description": "A scholar or architect examining ancient manuscripts in a library.",
-      "imageUrl": "https://images.unsplash.com/photo-1558901357-ca422fb45353?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhcmNoaXRlY3QlMjByZWFkaW5nJTIwYW5jaWVudCUyMHRleHR8ZW58MHx8fHwxNzY2MDYyMjAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-35.jpg",
       "imageHint": "scholar library"
     },
     {
-      "id": "insights-1",
+      "id": "restored-heritage-facade",
       "description": "A beautifully restored heritage building facade.",
-      "imageUrl": "https://images.unsplash.com/photo-1616047006789-b7af52592bef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZXJpdGFnZSUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2NjA2MjI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-36.jpg",
       "imageHint": "heritage building"
     },
     {
-      "id": "insights-2",
+      "id": "bundi-stepwell-restored",
       "description": "A close-up of a restored stepwell in Bundi, Rajasthan.",
-      "imageUrl": "https://images.unsplash.com/photo-1608383995952-447037207e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidW5kaSUyMHN0ZXB3ZWxsfGVufDB8fHx8MTc2NjA2MjI4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-37.jpg",
       "imageHint": "Bundi stepwell"
     },
     {
-      "id": "insights-3",
+      "id": "corporate-meeting-discussion",
       "description": "Corporate professionals in a meeting, discussing a project.",
-      "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBtZWV0aW5nfGVufDB8fHx8MTc2NjA2MjMxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-38.jpg",
       "imageHint": "corporate meeting"
     },
     {
-      "id": "insights-4",
+      "id": "lime-mortar-application",
       "description": "A texture shot of wet lime mortar being applied to a wall.",
-      "imageUrl": "https://images.unsplash.com/photo-1579483324632-171433285923?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsaW1lJTIwbW9ydGFyfGVufDB8fHx8MTc2NjA2MjM0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/image-39.jpg",
       "imageHint": "lime mortar"
-    },
-    {
-      "id": "asi-hero",
-      "description": "Grand government building with Indian flag",
-      "imageUrl": "https://images.unsplash.com/photo-1588620290192-4989c93a7457?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "government building"
-    },
-    {
-      "id": "asi-expertise",
-      "description": "Architects reviewing blueprints at a construction site",
-      "imageUrl": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "architects blueprints"
     }
   ]
 }

@@ -3,7 +3,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Container } from "../container";
 
 export function ServicesHero() {
-  const heroImage = PlaceHolderImages.find((p) => p.id === "services-hero");
+  const heroImage = PlaceHolderImages.find((p) => p.id === "sandstone-wall-texture");
 
   return (
     <section className="relative w-full pt-40 pb-16 bg-background">

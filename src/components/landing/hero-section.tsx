@@ -5,7 +5,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Container } from "../container";
 
 export function HeroSection() {
-  const heroImage = PlaceHolderImages.find(p => p.id === 'image-3');
+  const heroImage = PlaceHolderImages.find(p => p.id === 'hawa-mahal-facade-alt');
 
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-24 overflow-hidden">
@@ -18,6 +18,7 @@ export function HeroSection() {
             fill
             className="object-cover"
             priority
+            quality={100}
           />
         )}
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/70 via-foreground/50 to-foreground/90 mix-blend-multiply" />

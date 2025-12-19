@@ -9,21 +9,21 @@ const projects = [
     id: "project-amer-stepwell",
     title: "Amer Fort Stepwell",
     location: "Jaipur, Rajasthan",
-    image: PlaceHolderImages.find(p => p.id === 'project-amer-stepwell'),
+    image: PlaceHolderImages.find(p => p.id === 'amer-stepwell-after'),
     description: "ASI-protected stepwell, structural conservation & site development."
   },
   {
     id: "project-taragarh-fort",
     title: "Taragarh Fort",
     location: "Bundi, Rajasthan",
-    image: PlaceHolderImages.find(p => p.id === 'project-taragarh-fort'),
+    image: PlaceHolderImages.find(p => p.id === 'temple-ruins-survey'),
     description: "3D laser scanning and H-BIM for conservation planning."
   },
   {
     id: "project-city-palace",
     title: "Udaipur City Palace",
     location: "Udaipur, Rajasthan",
-    image: PlaceHolderImages.find(p => p.id === 'project-city-palace'),
+    image: PlaceHolderImages.find(p => p.id === 'jali-window-detail'),
     description: "Facade stabilization using traditional stone masonry techniques."
   },
 ];

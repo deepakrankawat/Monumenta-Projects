@@ -5,21 +5,21 @@ import { Container } from "../container";
 
 const models = [
     {
-        id: "csr-adopt",
+        id: "temple-carvings-close-up",
         title: "Single-Site Flagship Project",
         description: "Comprehensive adoption of a standalone monument (Haveli, Stepwell, or Chhatri) for end-to-end restoration and maintenance.",
         budget: "₹50L - ₹5Cr",
         icon: "castle"
     },
     {
-        id: "csr-skill",
+        id: "artisan-hands-pottery",
         title: "Multi-Site Regional Programme",
         description: "A portfolio approach to restoring a cluster of smaller monuments in a specific geographical area or of a particular type.",
         budget: "₹1Cr+",
         icon: "handyman"
     },
     {
-        id: "csr-amenities",
+        id: "heritage-site-signage",
         title: "Heritage + Community Development",
         description: "A combo project linking monument restoration with local skill training, tourism livelihood programs, or school heritage clubs.",
         budget: "₹30L - ₹1.5Cr",

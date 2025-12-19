@@ -5,7 +5,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Container } from "../container";
 
 export function AboutHero() {
-  const heroImage = PlaceHolderImages.find((p) => p.id === "about-hero");
+  const heroImage = PlaceHolderImages.find((p) => p.id === "rajasthani-architecture");
 
   return (
     <header className="relative w-full min-h-[85vh] flex items-center justify-center overflow-hidden pt-24">

@@ -9,13 +9,13 @@ const testimonials = [
     quote: "Monumenta's approach to the Jaisalmer conservation was nothing short of extraordinary. Their technical expertise matched their passion for history.",
     name: "Dr. A. Sharma",
     title: "Director, Rajasthan Tourism Board",
-    avatar: PlaceHolderImages.find(p => p.id === 'avatar-1'),
+    avatar: PlaceHolderImages.find(p => p.id === 'portrait-official-man'),
   },
   {
     quote: "We entrusted our CSR funds for the Baori restoration to Monumenta, and the transparency and impact were exemplary.",
     name: "Priya Mehta",
     title: "CSR Head, Tata Steel",
-    avatar: PlaceHolderImages.find(p => p.id === 'avatar-2'),
+    avatar: PlaceHolderImages.find(p => p.id === 'portrait-architect-woman-alt'),
   },
 ];
 

@@ -3,7 +3,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Container } from "../container";
 
 export function InsightsHero() {
-  const heroImage = PlaceHolderImages.find((p) => p.id === "insights-hero");
+  const heroImage = PlaceHolderImages.find((p) => p.id === "scholar-in-library");
 
   return (
     <section className="relative w-full pt-28 pb-8">

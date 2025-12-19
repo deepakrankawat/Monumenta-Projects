@@ -22,7 +22,7 @@ const points = [
 ]
 
 export function ApproachSection() {
-    const approachImage = PlaceHolderImages.find(p => p.id === 'about-approach');
+    const approachImage = PlaceHolderImages.find(p => p.id === 'stone-texture-wall');
 
     return (
         <section className="py-24 md:py-32 overflow-hidden bg-background">

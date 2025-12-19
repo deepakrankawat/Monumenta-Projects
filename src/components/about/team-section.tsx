@@ -5,25 +5,25 @@ import { Card } from "@/components/ui/card";
 
 const team = [
   {
-    id: "team-1",
+    id: "portrait-architect-woman",
     name: "Sarah Mehta",
     title: "Principal Architect",
     description: "Over 15 years restoring Mughal-era structures with ASI.",
   },
   {
-    id: "team-2",
+    id: "portrait-man-business",
     name: "Vikram Singh",
     title: "Director of Operations",
     description: "Expert in CSR fund management and community liaison.",
   },
   {
-    id: "team-3",
+    id: "portrait-researcher-woman",
     name: "Ananya Rao",
     title: "Head of Research",
     description: "Specializing in archival research and historical accuracy.",
   },
   {
-    id: "team-4",
+    id: "portrait-engineer-man",
     name: "Rahul Desai",
     title: "Structural Engineer",
     description: "Ensuring structural integrity in seismic zones.",

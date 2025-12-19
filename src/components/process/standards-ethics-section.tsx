@@ -21,7 +21,7 @@ const standards = [
 ]
 
 export function StandardsEthicsSection() {
-    const standardsImage = PlaceHolderImages.find(p => p.id === 'process-standards');
+    const standardsImage = PlaceHolderImages.find(p => p.id === 'lime-plaster-texture');
     
     return (
         <section className="py-24 bg-background">
