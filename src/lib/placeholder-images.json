@@ -1,6 +1,12 @@
 {
   "placeholderImages": [
     {
+      "id": "image-3",
+      "description": "An alternate view of the Hawa Mahal palace in Jaipur, showcasing its pink sandstone architecture.",
+      "imageUrl": "https://images.unsplash.com/photo-1763105051908-17637946726b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxIYXdhJTIwTWFoYWwlMjBmYWNhZGV8ZW58MHx8fHwxNzY2MTIzNTkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Hawa Mahal facade"
+    },
+    {
       "id": "hero-background",
       "description": "The intricate facade of Hawa Mahal in Jaipur, India.",
       "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDX5Txs_ykvcV9uwSroPQaE-Ys1ZyFdKeVZZ4w7hqA9d0xIxp0vqTx3H5T-NALGYLOqwzhHITztJu9wR3_EM3LoL8qP03biZ2PodgY6mqR9IUGkqHZRBtSEdyDnEVwPj1QDs4KyHV041K9dJ4rKIJSYljsOC3rlX3n2RKqQyXhjWrCX4n0rYoAv0PYnu7UFm_c0S0gnVH5yJ8bLydqWyH8UBY7WqTcsAQiAs3XxMv9HNGyVMZ6-v8183KUT4NvRNLgXs7rKfukXuXM",

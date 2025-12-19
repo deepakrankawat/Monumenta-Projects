@@ -5,7 +5,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Container } from "../container";
 
 export function HeroSection() {
-  const heroImage = PlaceHolderImages.find(p => p.id === 'hero-background');
+  const heroImage = PlaceHolderImages.find(p => p.id === 'image-3');
 
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-24 overflow-hidden">
