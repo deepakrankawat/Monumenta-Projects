@@ -1,6 +1,8 @@
+
 import Image from "next/image";
 import { Container } from "@/components/container";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { Card, CardContent, CardHeader } from "../ui/card";
 
 const timeline = [
   {
@@ -36,21 +38,20 @@ export function StorySection() {
           <div className="w-24 h-1 bg-accent mx-auto rounded-full"></div>
         </div>
         <div className="grid md:grid-cols-2 gap-16 items-center">
-          <div className="order-2 md:order-1 relative pl-4 md:pl-0">
-            <div className="absolute left-[27px] top-6 bottom-6 w-0.5 bg-border"></div>
-            <div className="flex flex-col gap-12">
+          <div className="order-2 md:order-1 flex flex-col gap-8">
               {timeline.map((item, index) => (
-                <div key={index} className="flex gap-8 relative group">
-                  <div className={`relative z-10 shrink-0 size-14 rounded-full flex items-center justify-center text-primary-foreground shadow-xl shadow-primary/20 border-4 border-background group-hover:scale-110 transition-all ${item.style === 'primary' ? 'bg-primary group-hover:bg-destructive' : 'bg-card border-2 border-accent text-primary group-hover:bg-primary'}`}>
-                    <span className="material-symbols-outlined text-2xl">{item.icon}</span>
-                  </div>
-                  <div className="pt-1">
-                    <h3 className="text-2xl font-display font-bold text-foreground mb-2 group-hover:text-primary transition-colors">{item.title}</h3>
-                    <p className="text-muted-foreground leading-relaxed">{item.description}</p>
-                  </div>
-                </div>
+                 <Card key={index} className="flex gap-6 p-6 rounded-2xl bg-card border-border/50 hover:border-accent shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group">
+                    <div className="shrink-0 mt-1">
+                        <div className={`relative z-10 size-14 rounded-xl flex items-center justify-center text-primary-foreground shadow-lg shadow-primary/20 border-4 border-background group-hover:scale-110 transition-all ${item.style === 'primary' ? 'bg-primary' : 'bg-accent'}`}>
+                            <span className="material-symbols-outlined text-3xl">{item.icon}</span>
+                        </div>
+                    </div>
+                    <div className="pt-1">
+                        <h3 className="text-2xl font-display font-bold text-foreground mb-2 group-hover:text-primary transition-colors">{item.title}</h3>
+                        <p className="text-muted-foreground leading-relaxed">{item.description}</p>
+                    </div>
+                </Card>
               ))}
-            </div>
           </div>
           <div className="order-1 md:order-2 h-[450px] md:h-[550px] rounded-t-full rounded-b-lg overflow-hidden relative group border-8 border-white shadow-2xl shadow-border/50">
             {storyImage && (

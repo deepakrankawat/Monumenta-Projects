@@ -8,7 +8,7 @@ const locations = [
     {
         name: "Jaipur",
         role: "Headquarters",
-        position: "top-[40%] left-[35%]"
+        position: "top-[40%] left-[50%]"
     },
     {
         name: "Udaipur",
@@ -70,7 +70,7 @@ export function LocationsSection() {
                                     />
                                 )}
                                 <Tooltip>
-                                    <TooltipTrigger className="absolute top-[40%] left-[35%] group cursor-pointer">
+                                    <TooltipTrigger className="absolute top-[38%] left-[30%] group cursor-pointer">
                                         <span className="absolute inline-flex h-6 w-6 rounded-full bg-primary opacity-30 animate-ping"></span>
                                         <span className="relative inline-flex items-center justify-center rounded-full h-4 w-4 bg-primary border-2 border-white text-white"></span>
                                     </TooltipTrigger>
@@ -79,7 +79,7 @@ export function LocationsSection() {
                                     </TooltipContent>
                                 </Tooltip>
                                 <Tooltip>
-                                    <TooltipTrigger className="absolute top-[45%] left-[42%] group cursor-pointer">
+                                    <TooltipTrigger className="absolute top-[43%] left-[25%] group cursor-pointer">
                                         <span className="absolute inline-flex h-4 w-4 rounded-full bg-accent opacity-50 animate-ping animation-delay-500"></span>
                                         <span className="relative inline-flex rounded-full h-3 w-3 bg-accent border-2 border-white"></span>
                                     </TooltipTrigger>
@@ -88,7 +88,7 @@ export function LocationsSection() {
                                     </TooltipContent>
                                 </Tooltip>
                                 <Tooltip>
-                                    <TooltipTrigger className="absolute top-[50%] left-[30%] group cursor-pointer">
+                                    <TooltipTrigger className="absolute top-[39 %] left-[23%] group cursor-pointer">
                                         <span className="absolute inline-flex h-4 w-4 rounded-full bg-accent opacity-50 animate-ping animation-delay-1000"></span>
                                         <span className="relative inline-flex rounded-full h-3 w-3 bg-accent border-2 border-white"></span>
                                     </TooltipTrigger>
