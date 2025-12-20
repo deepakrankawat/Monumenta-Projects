@@ -10,9 +10,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ['Playfair Display', 'serif'],
-        body: ['Lora', 'serif'],
-        sans: ['Poppins', 'sans-serif'],
+        display: ['var(--font-playfair-display)', 'serif'],
+        body: ['var(--font-poppins)', 'sans-serif'],
+        sans: ['var(--font-poppins)', 'sans-serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
