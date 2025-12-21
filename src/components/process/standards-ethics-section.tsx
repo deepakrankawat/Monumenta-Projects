@@ -39,7 +39,7 @@ export function StandardsEthicsSection() {
                     </div>
                     <div className="space-y-8">
                          <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-4">
-                            Technical Standards & Ethics
+                            Technical Standards and Ethics
                         </h2>
                         <p className="text-lg text-muted-foreground">
                             Our work is founded on a bedrock of scientific principles and ethical guidelines. We believe in minimal intervention, reversibility, and absolute respect for the monument's historical integrity.

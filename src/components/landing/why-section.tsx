@@ -3,12 +3,12 @@ import { Container } from "../container";
 const points = [
   {
     icon: "gavel",
-    title: "ASI & Government Expertise",
+    title: "ASI and Government Expertise",
     description: "Deep understanding of official procedures, standards, and compliance requirements for heritage projects in India.",
   },
   {
     icon: "spa",
-    title: "Authentic Materials & Methods",
+    title: "Authentic Materials and Methods",
     description: "Commitment to using traditional materials like lime mortar (chuna) and time-tested artisanal techniques.",
   },
   {

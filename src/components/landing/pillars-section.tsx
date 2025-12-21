@@ -6,7 +6,7 @@ const pillars = [
     icon: "account_balance",
     title: "ASI Heritage Conservation",
     points: [
-        "Structural & material conservation",
+        "Structural and material conservation",
         "Adherence to national/international charters",
         "Detailed documentation (3D scanning, H-BIM)",
     ],
@@ -16,8 +16,8 @@ const pillars = [
     title: "CSR-Funded Heritage Projects",
     points: [
         "End-to-end project management",
-        "Transparent fund utilization & reporting",
-        "Community engagement & skill development",
+        "Transparent fund utilization and reporting",
+        "Community engagement and skill development",
     ],
   },
   {
@@ -25,17 +25,17 @@ const pillars = [
     title: "Heritage-Sensitive Infrastructure",
     points: [
         "Adaptive re-use planning",
-        "Visitor management & amenities",
-        "Site interpretation & museum design",
+        "Visitor management and amenities",
+        "Site interpretation and museum design",
     ],
   },
   {
     icon: "description",
-    title: "Technical Documentation & Advisory",
+    title: "Technical Documentation and Advisory",
     points: [
-        "Condition assessment & feasibility reports",
+        "Condition assessment and feasibility reports",
         "Detailed Project Reports (DPRs)",
-        "Conservation & management plans",
+        "Conservation and management plans",
     ],
   },
 ];

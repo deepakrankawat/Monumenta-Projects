@@ -3,13 +3,13 @@ import { Card } from "../ui/card";
 
 const serviceClusters = [
   {
-    title: "ASI & Government Heritage Projects",
+    title: "ASI and Government Heritage Projects",
     icon: "account_balance",
     services: [
-      "Structural conservation & restoration",
+      "Structural conservation and restoration",
       "Architectural documentation, condition assessment, DPRs",
       "Site development (pathways, visitor facilities, signage, lighting)",
-      "Heritage landscaping & urban design around monuments",
+      "Heritage landscaping and urban design around monuments",
     ],
     benefits: [
       "Ensures full compliance with government charters and standards.",
@@ -18,11 +18,11 @@ const serviceClusters = [
     ]
   },
   {
-    title: "CSR-Funded Heritage & Community Projects",
+    title: "CSR-Funded Heritage and Community Projects",
     icon: "volunteer_activism",
     services: [
       "Identifying suitable heritage projects for CSR alignment",
-      "Preparation of project proposals & DPRs for corporate approval",
+      "Preparation of project proposals and DPRs for corporate approval",
       "Execution of restoration works with transparent reporting",
       "Impact assessment and documentation for CSR compliance",
     ],
@@ -48,7 +48,7 @@ const serviceClusters = [
     ]
   },
   {
-    title: "Advisory & Documentation",
+    title: "Advisory and Documentation",
     icon: "description",
     services: [
       "Heritage audits, structural surveys, and feasibility studies",

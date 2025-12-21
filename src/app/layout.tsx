@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 import { SiteHeader } from '@/components/layout/site-header';
 import { SiteFooter } from '@/components/layout/site-footer';
 import { Toaster } from "@/components/ui/toaster"
-import { Playfair_Display, Poppins } from 'next/font/google';
+import { Lora, Playfair_Display, Poppins } from 'next/font/google';
 
 export const metadata: Metadata = {
   title: "Monumenta Projects - Preserving India's Heritage",
@@ -22,6 +22,12 @@ const playfairDisplay = Playfair_Display({
   display: 'swap',
 });
 
+const lora = Lora({
+  subsets: ['latin'],
+  variable: '--font-lora',
+  display: 'swap',
+});
+
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
@@ -36,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn(playfairDisplay.variable, poppins.variable, 'scroll-smooth')}>
+    <html lang="en" className={cn(playfairDisplay.variable, lora.variable, poppins.variable, 'scroll-smooth')}>
       <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
       </head>

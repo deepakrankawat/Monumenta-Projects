@@ -24,7 +24,7 @@ export function SafetyCommunitySection() {
             <Container>
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-4">
-                        Safety, Environment & Community
+                        Safety, Environment and Community
                     </h2>
                     <p className="text-lg text-muted-foreground">
                         A holistic approach that extends beyond the monument itself, ensuring our work benefits the people and planet it touches.
