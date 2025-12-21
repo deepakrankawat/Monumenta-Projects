@@ -1,4 +1,5 @@
 
+
 "use client";
 
 import Link from "next/link";
@@ -110,11 +111,9 @@ export function SiteHeader() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/projects" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Projects
-                  </NavigationMenuLink>
-                </Link>
+                <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                  <Link href="/projects">Projects</Link>
+                </NavigationMenuLink>
               </NavigationMenuItem>
 
                <NavigationMenuItem>
