@@ -24,7 +24,7 @@ export function AboutHero() {
       <Container className="relative z-20 text-center max-w-5xl mt-10">
         <div className="inline-flex items-center gap-2 py-2 px-5 rounded-full bg-accent/20 text-accent border border-accent/40 text-xs font-bold font-sans uppercase tracking-widest mb-8 backdrop-blur-md">
           <span className="material-symbols-outlined text-sm">verified</span>
-          ASI &amp; CSR Partner
+          ASI and CSR Partner
         </div>
         <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-medium text-primary-foreground leading-[1.05] mb-8 tracking-tight drop-shadow-2xl">
           Preserving India's Soul, <br />

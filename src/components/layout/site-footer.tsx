@@ -10,8 +10,8 @@ const mainLinks = [
 ];
 
 const serviceLinks = [
-    { href: "/services", label: "ASI & Government" },
-    { href: "/csr", label: "CSR & Community" },
+    { href: "/services", label: "ASI and Government" },
+    { href: "/csr", label: "CSR and Community" },
     { href: "/process", label: "Our Process" },
 ];
 

@@ -32,16 +32,16 @@ import {
 
 const aboutLinks = [
   { href: "/about", title: "About Monumenta", description: "Our story, mission, and team." },
-  { href: "/process", title: "Process & Methodology", description: "Our step-by-step methodology." },
+  { href: "/process", title: "Process and Methodology", description: "Our step-by-step methodology." },
 ];
 
 const serviceLinks = [
-    { href: "/services", title: "ASI & Government", description: "Collaboration with government bodies." },
-    { href: "/csr", title: "CSR & Community", description: "Fulfilling your CSR goals with heritage." },
+    { href: "/services", title: "ASI and Government", description: "Collaboration with government bodies." },
+    { href: "/csr", title: "CSR and Community", description: "Fulfilling your CSR goals with heritage." },
 ];
 
 const projectsLinks = [
-    { href: "/projects", title: "Projects & Case Studies", description: "Explore our portfolio of work." },
+    { href: "/projects", title: "Projects and Case Studies", description: "Explore our portfolio of work." },
 ];
 
 const resourcesLinks = [
@@ -83,10 +83,10 @@ export function SiteHeader() {
                         {component.description}
                       </ListItem>
                     ))}
-                    <ListItem title="ASI & Government Collaboration" href="/services">
+                    <ListItem title="ASI and Government Collaboration" href="/services">
                       A trusted execution partner for government bodies.
                     </ListItem>
-                    <ListItem title="CSR & Corporate Partnerships" href="/csr">
+                    <ListItem title="CSR and Corporate Partnerships" href="/csr">
                       Create lasting social and cultural impact.
                     </ListItem>
                   </ul>
@@ -156,7 +156,7 @@ export function SiteHeader() {
                     <AccordionItem value="about">
                       <AccordionTrigger className="text-xl font-medium text-foreground hover:no-underline hover:text-accent">About</AccordionTrigger>
                       <AccordionContent className="pl-4">
-                        {[...aboutLinks, { href: "/services", title: "ASI & Government", description: "" }, { href: "/csr", title: "CSR & Partnerships", description: "" }].map(link => (
+                        {[...aboutLinks, { href: "/services", title: "ASI and Government", description: "" }, { href: "/csr", title: "CSR and Partnerships", description: "" }].map(link => (
                            <Link key={link.href} href={link.href} onClick={() => setIsSheetOpen(false)} className="block py-2.5 text-lg text-muted-foreground hover:text-primary">{link.title}</Link>
                         ))}
                       </AccordionContent>

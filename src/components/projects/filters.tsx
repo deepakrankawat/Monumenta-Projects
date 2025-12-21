@@ -14,7 +14,7 @@ export function Filters() {
             CSR Initiatives
         </Button>
         <Button size="sm" variant="outline" className="h-10 px-6 rounded-full hover:bg-primary/5">
-            Community &amp; Others
+            Community and Others
         </Button>
       </div>
       <div className="flex items-center gap-2 text-sm text-muted-foreground">

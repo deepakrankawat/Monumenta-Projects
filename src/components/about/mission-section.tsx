@@ -29,7 +29,7 @@ export function MissionSection() {
                 <div className="flex-1">
                     <span className="text-accent font-sans font-bold tracking-wider uppercase text-sm mb-3 block">Our Core</span>
                     <h2 className="text-4xl md:text-5xl font-display font-bold text-primary leading-tight">
-                        Mission, Vision <br /> &amp; Values
+                        Mission, Vision <br /> and Values
                     </h2>
                 </div>
                 <div className="flex-1 pb-2">
