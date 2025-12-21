@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader } from "../ui/card";
 const timeline = [
   {
     icon: "history_edu",
-    title: "Inception & Passion",
+    title: "Inception and Passion",
     description: "Founded by architects who saw history crumbling, Monumenta began as a small collective documenting forgotten Havelis in Jaipur.",
     style: "primary"
   },

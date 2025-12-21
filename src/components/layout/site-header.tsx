@@ -110,9 +110,11 @@ export function SiteHeader() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                  <Link href="/projects">Projects</Link>
-                </NavigationMenuLink>
+                <Link href="/projects" legacyBehavior passHref>
+                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                    Projects
+                  </NavigationMenuLink>
+                </Link>
               </NavigationMenuItem>
 
                <NavigationMenuItem>
@@ -226,5 +228,3 @@ const ListItem = React.forwardRef<
   );
 });
 ListItem.displayName = "ListItem";
-
-    

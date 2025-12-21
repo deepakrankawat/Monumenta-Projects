@@ -29,7 +29,7 @@ export function NewsSection() {
       <Container>
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-4">
-            News & Events
+            News and Events
           </h2>
           <p className="text-lg text-muted-foreground">
             Stay updated with our latest workshops, talks, and media features.

@@ -117,14 +117,14 @@ export default function ProjectDetailPage({ params }: { params: { id: string } }
                 </ul>
             </div>
              <div>
-                <h2 className="font-display text-2xl text-accent font-bold mb-4">Challenges & Solutions</h2>
+                <h2 className="font-display text-2xl text-accent font-bold mb-4">Challenges and Solutions</h2>
                 <p className="text-muted-foreground leading-relaxed">{project.challenges}</p>
                  <p className="mt-4 text-muted-foreground leading-relaxed"><strong className="text-foreground">Solution: </strong>{project.solutions}</p>
             </div>
 
             {project.beforeImage && project.afterImage && (
                 <div>
-                    <h2 className="font-display text-2xl text-accent font-bold mb-4">Before & After</h2>
+                    <h2 className="font-display text-2xl text-accent font-bold mb-4">Before and After</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="space-y-2">
                             <Image src={project.beforeImage.imageUrl} alt="Before restoration" width={600} height={400} className="rounded-lg object-cover border-4 border-card"/>
