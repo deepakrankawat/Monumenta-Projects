@@ -3,27 +3,27 @@ import { Container } from "../container";
 const steps = [
   {
     step: "01",
-    title: "Preliminary Assessment & Site Visit",
+    title: "Preliminary Assessment and Site Visit",
     description: "Initial reconnaissance to understand the site context, historical significance, and stakeholder objectives."
   },
   {
     step: "02",
-    title: "Historical & Architectural Documentation",
+    title: "Historical and Architectural Documentation",
     description: "Archival research, measured drawings, and photographic documentation to create a baseline record."
   },
   {
     step: "03",
-    title: "Condition Mapping & Structural Evaluation",
+    title: "Condition Mapping and Structural Evaluation",
     description: "Detailed mapping of defects, material testing, and non-destructive structural analysis to diagnose issues."
   },
   {
     step: "04",
-    title: "Concept & Conservation Strategy",
+    title: "Concept and Conservation Strategy",
     description: "Developing a conservation philosophy and strategy that respects the building's integrity and value."
   },
   {
     step: "05",
-    title: "Detailed Project Report & Estimation",
+    title: "Detailed Project Report and Estimation",
     description: "Preparation of DPR with methodologies, BOQs, cost estimates, and project timelines for approval."
   },
   {
@@ -33,12 +33,12 @@ const steps = [
   },
   {
     step: "07",
-    title: "Execution & Quality Control",
+    title: "Execution and Quality Control",
     description: "Meticulous execution by master artisans under expert supervision, with rigorous quality checks at every stage."
   },
   {
     step: "08",
-    title: "Final Handover & Maintenance Guidance",
+    title: "Final Handover and Maintenance Guidance",
     description: "Project completion, final documentation, and providing a comprehensive guide for future upkeep."
   }
 ];
