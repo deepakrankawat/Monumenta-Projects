@@ -56,7 +56,7 @@ export function SiteHeader() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-md bg-background/95 border-b border-border shadow-sm">
       <Container>
-        <div className="flex items-center justify-between h-20 md:h-24">
+        <div className="flex items-center justify-between h-24 md:h-28">
           <Logo />
           
           {/* Desktop Navigation */}
@@ -103,7 +103,7 @@ export function SiteHeader() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/projects" legacyBehavior passHref>
+                <Link href="/projects" passHref legacyBehavior>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Projects
                   </NavigationMenuLink>
