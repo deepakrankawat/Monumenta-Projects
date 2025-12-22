@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Container } from "../container";
+import { Logo } from "./logo";
 
 const mainLinks = [
   { href: "/about", label: "About Us" },
@@ -32,12 +33,7 @@ export function SiteFooter() {
       <Container as="div">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-12 mb-12 md:mb-20 border-b border-white/5 pb-12 md:pb-16">
           <div className="col-span-2 lg:col-span-2">
-            <Link href="/" className="flex items-center gap-3 mb-6">
-              <div className="size-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground">
-                <span className="material-symbols-outlined text-xl">temple_hindu</span>
-              </div>
-              <span className="text-2xl font-bold tracking-tight text-primary-foreground font-display">Monumenta.</span>
-            </Link>
+            <Logo className="mb-6"/>
             <p className="text-secondary/70 text-sm leading-relaxed mb-8 font-body max-w-xs">
               Specializing in the conservation of India's built heritage through scientific analysis and traditional craftsmanship.
             </p>

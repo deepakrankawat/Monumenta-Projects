@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import Link from "next/link";
@@ -30,6 +28,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Logo } from "./logo";
 
 const aboutLinks = [
   { href: "/about", title: "About Monumenta", description: "Our story, mission, and team." },
@@ -58,14 +57,7 @@ export function SiteHeader() {
     <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-md bg-background/95 border-b border-border shadow-sm">
       <Container>
         <div className="flex items-center justify-between h-20 md:h-24">
-          <Link href="/" className="flex items-center gap-3">
-            <div className="size-10 md:size-12 bg-primary/10 rounded-full flex items-center justify-center text-primary border border-primary/20">
-              <span className="material-symbols-outlined text-2xl">temple_hindu</span>
-            </div>
-            <span className="text-xl md:text-2xl font-bold tracking-tight text-foreground font-display">
-              Monumenta<span className="text-accent">.</span>
-            </span>
-          </Link>
+          <Logo />
           
           {/* Desktop Navigation */}
           <NavigationMenu className="hidden md:flex">
