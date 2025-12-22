@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Container } from "../container";
 import { Button } from "../ui/button";
+import Image from "next/image";
 
 export function CsrSection() {
   return (
@@ -33,9 +34,8 @@ export function CsrSection() {
             <span className="material-symbols-outlined text-3xl md:text-4xl text-primary">travel_explore</span>
             <span className="font-bold text-lg md:text-xl font-display">Rajasthan Tourism</span>
           </div>
-          <div className="flex items-center gap-3" title="Major Indian Conglomerate">
-            <span className="material-symbols-outlined text-3xl md:text-4xl text-primary">corporate_fare</span>
-            <span className="font-bold text-lg md:text-xl font-display">Corporate Foundations</span>
+          <div className="relative w-36 h-12" title="Major Indian Conglomerate">
+            <Image src="/images/logo.png" alt="Company Logo" fill className="object-contain" />
           </div>
            <div className="flex items-center gap-3" title="Global Heritage Funds">
             <span className="material-symbols-outlined text-3xl md:text-4xl text-primary">museum</span>
