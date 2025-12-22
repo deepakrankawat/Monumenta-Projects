@@ -46,8 +46,8 @@ const projectsLinks = [
 
 const resourcesLinks = [
     { href: "/insights", title: "Insights Home", description: "Articles, guides, and news." },
-    { href: "/insights", title: "Blogs / Articles", description: "Thought leadership on conservation." },
-    { href: "/insights", title: "Reports / Publications", description: "In-depth analysis and reports." },
+    { href: "/insights", title: "Blogs and Articles", description: "Thought leadership on conservation." },
+    { href: "/insights", title: "Reports and Publications", description: "In-depth analysis and reports." },
 ];
 
 export function SiteHeader() {
@@ -103,7 +103,7 @@ export function SiteHeader() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/projects" passHref legacyBehavior>
+                <Link href="/projects" passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Projects
                   </NavigationMenuLink>
