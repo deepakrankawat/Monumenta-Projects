@@ -79,3 +79,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+header .h-24 {
+  height: 100px;
+}
+
+header .h-28 {
+    height: 112px;
+}
