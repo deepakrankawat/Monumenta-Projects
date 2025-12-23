@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 export function Logo({ className }: { className?: string }) {
   return (
     <Link href="/" className={cn("flex items-center gap-3", className)}>
-      <div className="relative w-28 h-28">
+      <div className="relative w-36 h-36">
         <Image 
           src="/images/logo.png" 
           alt="Monumenta Projects Logo" 
