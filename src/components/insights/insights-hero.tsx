@@ -6,9 +6,9 @@ export function InsightsHero() {
   const heroImage = PlaceHolderImages.find((p) => p.id === "scholar-in-library");
 
   return (
-    <section className="relative w-full pt-28 pb-8">
+    <section className="relative w-full pt-40 pb-16 bg-background">
       <Container>
-        <div className="relative overflow-hidden rounded-2xl bg-card shadow-xl shadow-border/40 border border-border/50 min-h-[400px] flex items-center">
+        <div className="relative overflow-hidden rounded-2xl bg-card shadow-xl shadow-border/40 border border-border/50 min-h-[450px] flex items-center">
           {heroImage && (
             <div className="absolute inset-0">
               <Image
