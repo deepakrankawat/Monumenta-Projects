@@ -80,7 +80,7 @@ export default function ProjectDetailPage({ params: { id } }: { params: { id: st
               {project.category}
           </div>
           <h1 className="text-4xl md:text-6xl font-display font-bold text-primary">{project.title}</h1>
-          <p className="mt-4 text-lg text-muted-foreground flex items-center justify-center gap-2">
+          <p className="mt-4 text-lg text-muted-foreground flex items-center justify-center gap-2 font-body">
             <span className="material-symbols-outlined text-accent">location_on</span>
             {project.location}
           </p>
@@ -112,14 +112,14 @@ export default function ProjectDetailPage({ params: { id } }: { params: { id: st
           <div className="lg:col-span-2 space-y-12">
             <div>
                 <h2 className="font-display text-2xl text-accent font-bold mb-4">Scope of Work</h2>
-                <ul className="space-y-3 text-muted-foreground list-disc pl-5 leading-relaxed">
+                <ul className="space-y-3 text-muted-foreground list-disc pl-5 leading-relaxed font-body">
                     {project.scope.map(item => <li key={item}>{item}</li>)}
                 </ul>
             </div>
              <div>
                 <h2 className="font-display text-2xl text-accent font-bold mb-4">Challenges and Solutions</h2>
-                <p className="text-muted-foreground leading-relaxed">{project.challenges}</p>
-                 <p className="mt-4 text-muted-foreground leading-relaxed"><strong className="text-foreground">Solution: </strong>{project.solutions}</p>
+                <p className="text-muted-foreground leading-relaxed font-body">{project.challenges}</p>
+                 <p className="mt-4 text-muted-foreground leading-relaxed font-body"><strong className="text-foreground">Solution: </strong>{project.solutions}</p>
             </div>
 
             {project.beforeImage && project.afterImage && (
@@ -140,7 +140,7 @@ export default function ProjectDetailPage({ params: { id } }: { params: { id: st
             
              <div>
                 <h2 className="font-display text-2xl text-accent font-bold mb-4">Impact</h2>
-                <p className="text-muted-foreground leading-relaxed">{project.impact}</p>
+                <p className="text-muted-foreground leading-relaxed font-body">{project.impact}</p>
             </div>
 
             <div className="text-center pt-8 border-t border-border">
