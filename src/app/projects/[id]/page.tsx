@@ -64,8 +64,8 @@ const getProjectData = (id: string) => {
   return undefined;
 }
 
-export default function ProjectDetailPage({ params }: { params: { id: string } }) {
-  const project = getProjectData(params.id);
+export default function ProjectDetailPage({ params: { id } }: { params: { id: string } }) {
+  const project = getProjectData(id);
 
   if (!project) {
     notFound();
