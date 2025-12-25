@@ -103,7 +103,7 @@ export function SiteHeader() {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/projects" passHref>
+                <Link href="/projects" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Projects
                   </NavigationMenuLink>
