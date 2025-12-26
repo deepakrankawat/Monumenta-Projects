@@ -29,7 +29,7 @@ export function InsightsHero() {
               </span>
             </div>
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl lg:text-6xl text-primary drop-shadow-sm font-display">
-              Resources &amp; Insights
+              Resources and Insights
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-xl font-medium leading-relaxed font-body">
               Explore our articles and case stories on heritage conservation, traditional techniques, and the impact of CSR in preserving India’s legacy.

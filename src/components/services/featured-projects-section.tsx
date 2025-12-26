@@ -10,7 +10,7 @@ const projects = [
     title: "Amer Fort Stepwell",
     location: "Jaipur, Rajasthan",
     image: PlaceHolderImages.find(p => p.id === 'amer-stepwell-after'),
-    description: "ASI-protected stepwell, structural conservation & site development."
+    description: "ASI-protected stepwell, structural conservation and site development."
   },
   {
     id: "project-taragarh-fort",
@@ -37,7 +37,7 @@ export function FeaturedProjectsSection() {
                 Project Gallery
             </h2>
             <h3 className="text-3xl md:text-5xl font-medium text-foreground font-display">
-                Our Work with ASI & Government
+                Our Work with ASI and Government
             </h3>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
