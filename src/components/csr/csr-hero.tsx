@@ -8,8 +8,8 @@ export function CsrHero() {
   const heroImage = PlaceHolderImages.find((p) => p.id === "indian-fort-wide");
 
   return (
-    <section className="w-full flex justify-center py-6 px-4 md:px-10">
-      <Container className="pt-28">
+    <section className="w-full flex justify-center px-4 md:px-10 pt-32 pb-8">
+      <Container>
         <div className="w-full rounded-2xl overflow-hidden relative min-h-[70vh] md:min-h-[600px] flex flex-col justify-center items-center text-center p-8 bg-cover bg-center shadow-xl border border-border">
           {heroImage && (
             <Image

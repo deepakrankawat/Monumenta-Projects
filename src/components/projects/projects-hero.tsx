@@ -6,8 +6,8 @@ export function ProjectsHero() {
   const heroImage = PlaceHolderImages.find((p) => p.id === "fort-restoration-sunset");
 
   return (
-    <section className="relative w-full bg-background">
-      <Container className="pt-36">
+    <section className="relative w-full bg-background pt-32 pb-8">
+      <Container>
         <div className="relative overflow-hidden rounded-2xl bg-card shadow-xl shadow-border/40 border border-border/50 min-h-[450px] flex items-center">
           {heroImage && (
             <div className="absolute inset-0">
