@@ -22,7 +22,7 @@ export function CsrHero() {
             />
           )}
           <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/70 to-foreground/90"></div>
-          <div className="max-w-[900px] flex flex-col gap-6 items-center z-10 animate-fade-in-up">
+          <div className="max-w-[900px] flex flex-col gap-6 items-center animate-fade-in-up">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/20 backdrop-blur-md border border-accent/40 shadow-sm">
               <span className="material-symbols-outlined text-accent text-sm">temple_hindu</span>
               <span className="text-accent text-xs font-bold uppercase tracking-widest font-ui">Heritage Conservation</span>
