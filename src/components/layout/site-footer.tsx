@@ -48,7 +48,7 @@ function SocialIcon({ iconName }: { iconName: string }) {
 
 export function SiteFooter() {
   return (
-    <footer className="bg-foreground text-primary-foreground pt-16 md:pt-24 pb-8 md:pb-12 font-sans">
+    <footer className="bg-foreground text-primary-foreground pt-12 md:pt-16 pb-8 font-sans">
       <Container as="div">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-12 md:mb-20 border-b border-white/5 pb-12 md:pb-16 px-4">
           <div className="md:col-span-4 lg:col-span-4">
